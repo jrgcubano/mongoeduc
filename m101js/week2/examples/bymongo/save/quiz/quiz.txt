@@ -1,0 +1,8 @@
+db.collection('grades').save({ '_id' : 'email@example.com', 'name' : 'Joe' }, callback);
+
+Assuming all the necessary variables are defined, what is the result of calling this function?
+
+1. Attempt to Insert the object and throw an error if '_id' is not unique
+2. Update and replace the object
+3. Upsert to insert or replace the object
+4. Throw an error

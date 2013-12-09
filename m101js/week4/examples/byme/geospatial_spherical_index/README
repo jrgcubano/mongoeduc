@@ -1,0 +1,3 @@
+# Geospacial Spherical Index
+
+db.runCommand({geoNear : 'stores', near : [50, 50], spherical : true, maxDistance : 1}) // maxDistance = 1 radian

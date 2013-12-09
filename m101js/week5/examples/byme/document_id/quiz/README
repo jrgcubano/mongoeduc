@@ -1,0 +1,4 @@
+# Document for _id
+
+db.foo.insert({_id :{name : "andrew", class : "m101"}, hometown : "NY"})
+

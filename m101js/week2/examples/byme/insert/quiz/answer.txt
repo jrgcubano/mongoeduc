@@ -1,0 +1,29 @@
+Inserting, _id
+
+var MongoClient = require('mongodb').MongoClient;
+
+MongoClient.connect('mongodb://localhost:27017/course', function(err, db) {
+    if(err) throw err;
+
+    var docs = [ { '_id' : 'George', 'age' : 6 },
+                 { '_id' : 'george', 'age' : 7 } ];
+
+    db.collection('students').insert(docs, function(err, inserted) {
+        if(err) throw err;
+
+        console.dir("Successfully inserted: " + JSON.stringify(inserted));
+
+        return db.close();
+    });
+});
+What will happen when we run the above code?
+
+
+
+Only one document in the array will be inserted
+
+We will get an error because we are trying to insert an array of documents instead of a single document
+
+We will get a duplicate key error
+
+(OK) Both documents will be inserted successfully

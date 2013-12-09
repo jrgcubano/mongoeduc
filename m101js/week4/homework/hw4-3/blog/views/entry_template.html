@@ -1,0 +1,54 @@
+<!doctype HTML>
+<html
+<head>
+<title>
+Blog Post
+</title>
+</head>
+<body>
+{% if username %}
+Welcome {{username}}        <a href="/logout">Logout</a> | <a href="/newpost">New Post</a><p>
+{% else %}
+You are not logged in!        <a href="/login">Login</a> | <a href="/signup">Sign Up</a><p>
+{% endif %}
+<a href="/">Blog Home</a><br><br>
+
+<h2>{{post['title']}}</h2>
+Posted {{post['date']}}<i> By {{post['author']}}</i><br>
+<hr>
+{% autoescape false %}
+{{post['body']}}
+{% endautoescape %}
+<p>
+<em>Filed Under</em>:
+{% for tag in post.tags %}
+    {% if loop.first %}
+        <a href="/tag/{{tag}}">{{tag}}</a>
+    {% else %}
+        , <a href="/tag/{{tag}}">{{tag}}</a>
+    {% endif %}
+{% endfor %}
+<p>
+Comments:
+<ul>
+{% for comment in post.comments %}
+Author: {{comment['author']}}<br>
+{{comment['body']}}<br>
+<hr>
+{% endfor %}
+<h3>Add a comment</h3>
+<form action="/newcomment" method="POST">
+<input type="hidden" name="permalink", value="{{post['permalink']}}">
+<h4>{{errors}}</h4>
+<b>Name</b> (required)<br>
+<input type="text" name="commentName" size="60" value="{{comment['name']}}"><br>
+<b>Email</b> (optional)<br>
+<input type="text" name="commentEmail" size="60" value="{{comment['email']}}"><br>
+<b>Comment</b><br>
+<textarea name="commentBody" cols="60" rows="10">{{comment['body']}}</textarea><br>
+<input type="submit" value="Submit">
+</ul>
+</body>
+</html>
+
+

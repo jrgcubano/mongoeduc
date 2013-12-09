@@ -1,0 +1,12 @@
+Skip, Limit and Sort
+
+What are some ways we can use skip, limit, and sort in the MongoDB Node.js driver? Check all that apply.
+
+
+(OK) Include skip, limit, and sort options in the options object for find and findOne
+
+(OK) Pass a sort order as an argument to findAndModify
+
+(OK) Call the skip, limit, and sort functions on a cursor before retrieving any documents
+
+Call the skip, limit, and sort functions on a cursor after retrieving some documents

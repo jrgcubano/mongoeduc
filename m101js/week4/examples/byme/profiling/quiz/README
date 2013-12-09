@@ -1,0 +1,25 @@
+# Profiling
+
+Background:
+
+Profiler levels:
+0: off
+1: log slow queries
+2: log all queries
+
+Examples:
+mongod -dbpath /usr/local/var/mongodb --profile 1 --slowms 2 (using level)
+db.students.find({student_id:1000})
+db.system.profile.find({ns:/school.students/}).pretty() (output explaining slow query)
+db.sytem.find({millis:($gt:1})}).sort({ts:1}).pretty()
+
+db.getProfilingLevel()
+db.setProfilingLevel(1, 4) // Level and Miliseconds
+db.getProfilingStatus()
+db.getProfilingStatus(1,4) // queries between 1 and 4 miliseconds
+
+Quiz:
+Write the query to look in the system profile collection for all queries that took longer than one second, ordered by timestamp descending.
+
+Answer:
+db.system.profile.find({millis:{$gt:1000}}).sort({ts: -1})

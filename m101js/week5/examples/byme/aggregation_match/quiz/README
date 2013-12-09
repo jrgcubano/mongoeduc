@@ -1,0 +1,5 @@
+# $match
+Again, thinking about the zipcode collection, write an aggregation query with a single match phase that filters for zip codes with greater than 100,000 people. You may need to look up the use of the $gt operator in the MongoDB docs.
+
+Answer:
+db.zips.aggregate([{ $match : { pop : {$gt : 100000}}} ]) 

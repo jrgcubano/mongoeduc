@@ -1,0 +1,12 @@
+findAndModify
+
+Which of the following calls to findAndModify will add the "dropped" field to the homework document with the lowest grade and call the given callback with the resulting document?
+
+
+(OK) db.collection('homeworks').findAndModify({}, [[ 'grade' , 1 ]], { '$set' : { 'dropped' : true } }, { 'new' : true }, callback);
+
+db.collection('homeworks').findAndModify({}, [[ 'grade' , -1 ]], { '$set' : { 'dropped' : true } }, { 'new' : true }, callback);
+
+db.collection('homeworks').findAndModify({ 'grade' : { '$lt' : 90 } }, [], { '$set' : { 'dropped' : true } }, { 'new' : true }, callback);
+
+db.collection('homeworks').findAndModify({}, [[ 'grade' , 1 ]], { 'new' : true }, { '$set' : { 'dropped' : true } }, callback);

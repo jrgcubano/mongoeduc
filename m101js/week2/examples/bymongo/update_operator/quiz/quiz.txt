@@ -1,0 +1,7 @@
+What happens when you run the above code with the given 'operator'?
+
+1. It changes 'assignment' to 'hw2' and changes 'date_graded' to the current date
+2. It changes 'date_graded' to the current date, ignoring 'assignment'
+3. It replaces the document with a document with only the 'date_graded' and 'assignment' fields
+4. It returns an error <- Answer
+

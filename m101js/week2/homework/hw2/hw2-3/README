@@ -1,0 +1,50 @@
+# Homework 2.3
+
+Blog User Sign-up and Login 
+
+If you have not already done so download the homework files for this week.
+
+You should see four files at the highest level: app.js, users.js, posts.js and sessions.js. There is also a views directory which contains the templates for the project and a routes directory which contains our express routes.
+
+If everything is working properly, you should be able to start the blog by typing:
+
+npm install
+node app.js
+Note that this requires Node.js to be correctly installed on your computer. After you run the blog, you should see the message:
+Express server listening on port 3000
+If you goto http://localhost:3000 you should see the front page of the blog. Here are some URLs that must work when you are done.
+
+http://localhost:3000/signup
+http://localhost:3000/login
+http://localhost:3000/logout
+
+When you login or sign-up, the blog will redirect to http://localhost:3000/welcome and that must work properly, welcoming the user by username.
+
+We have removed parts of the code that uses the Node.js driver to query MongoDB from users.js and marked the area where you need to work with "TODO: hw2.3". You should not need to touch any other code. The database calls that you are going to add will add a new user upon sign-up and validate a login by retrieving the right user document.
+
+The blog stores its data in the blog database in two collections, users and sessions. Here are two example docs for a username ‘sverch’ with password ‘salty’. You can insert these if you like, but you don’t need to.
+> use blog
+switched to db blog
+> db.users.find()
+{ "_id" : "sverch", "password" : "$2a$10$wl4bNB/5CqwWx4bB66PoQ.lmYvxUHigM1ehljyWQBupen3uCcldoW" }
+> db.sessions.find()
+{ "username" : "sverch", "_id" : "8d25917b27e4dc170d32491c6247aabba7598533" }
+>
+Once you have the the project working, the following steps should work:
+    go to http://localhost:3000/signup
+    create a user
+It should redirect you to the welcome page and say: welcome username, where username is the user you signed up with. Now:
+    Goto http://localhost:3000/logout
+    Now login http://localhost:3000/login
+Ok, now it’s time to validate you got it all working.
+
+You can validate the blog using the validation script we've provided in the 'validate' directory. Just run the following commands:
+cd validate
+npm install
+node validate.js
+For those who are using MongoHQ, MongoLab or want to run the webserver on a different host or port, there are some options to the validation script that can be exposed by running:
+node validate.js --help
+If you got it right, it will provide a validation code for you to enter into the box below. Enter just the code, no spaces. Note that your blog must be running when you run the validator.
+
+
+# Answer: find TODO: hw2.3 in users.js

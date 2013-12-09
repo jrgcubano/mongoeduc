@@ -1,0 +1,59 @@
+# Double $unwind
+
+// Example data
+db.inventory.insert({'name': "Polo shirt", 'sizes': ["Small", "Medium"]}), 'colors': ['navy', 'white', 'orange']})
+db.inventory.insert({'name': "T-shirt", 'sizes': ["Small, "Medium", "Large"], 'colors': ['navy, black, white']})
+
+// double unwind
+db.inventory.aggregate({
+	{$unwind: "$sizes"},
+	{$unwind: "$colors"},
+	{$group:
+	 {
+	 	'_id': {'size': '$sizes', 'color':'$colors'},
+		'count':{'$sum':1}
+	 }
+	}
+})
+
+
+Quiz:
+Can you reverse the effects of a double unwind (2 unwinds in a row) in our inventory collection (shown in the lesson ) with the $push operator?
+
+
+(OK) Yes
+
+No
+
+Answer:
+
+ db.inventory.aggregate({
+	  /* double unwind */
+          {$unwind: "$sizes"},
+          {$unwind: "$colors"},
+          /* create the color array */
+	  {$group:
+           {
+                  '_id': {name: "$name", size: "$sizes"},
+                  'colors' : {$push: "$colors"},
+           }
+          }, 
+	  /* - Reverse effects  -  */
+	  /* create the size array */
+	  {$group:
+           {
+	     '_id':{'name':"$_id.name", 
+			    'colors':"$colors"},
+	     'sizes': {$push: "$_id.size"}
+	   }
+	  },
+	  /* reshape for beauty */
+	  {$project:
+	   {
+  		_id : 0,
+		"name":"$_id.name",
+		"sizes":1, 
+		"colors": "$_id.colors" 
+	   }
+          }
+  })

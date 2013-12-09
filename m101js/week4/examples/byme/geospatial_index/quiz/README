@@ -1,0 +1,12 @@
+# Geospatial Indexes
+
+Index creation example:
+- 'location' : [x, y]
+- ensureIndex({'location': '2d', type:1})
+- db returns results by incresing distance
+
+Question:
+Suppose you have a 2D geospatial index defined on the key location in the collection places. Write a query that will find the closest three places (the closest three documents) to the location 74, 140.
+
+Answer: 
+db.places.find({ location : {$near : [74,140] }}).Limit(3);

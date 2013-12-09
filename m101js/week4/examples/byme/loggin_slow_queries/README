@@ -1,0 +1,4 @@
+# Logging slow queries
+
+
+mongo -dbpath /usr/local/var/mongod

@@ -1,0 +1,12 @@
+# Index Selectivity
+
+Given the following attributes of automobiles: color, weight, manufacturer, odometer mileage, which index is likely be the most selective, provided you can provide all four attributes on a search:
+
+
+Color
+
+Weight
+
+Manufacturer
+
+(OK) Odometer Mileage

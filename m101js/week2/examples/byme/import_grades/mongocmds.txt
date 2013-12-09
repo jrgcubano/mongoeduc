@@ -1,0 +1,2 @@
+// To import grades.json to mongo:
+mongoimport -d course -c grades grades.json

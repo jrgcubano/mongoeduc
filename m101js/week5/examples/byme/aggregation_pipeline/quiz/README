@@ -1,0 +1,33 @@
+# The Aggregation Pipeline
+
+Which of the following are stages in the aggregation pipeline. Check all that apply.
+
+(OK) Match
+
+Transpose
+
+(OK) Group
+
+(OK) Skip
+
+(OK) Limit
+
+(OK) Sort
+
+(OK) Project
+
+(OK) unwind
+
+
+
+Resume:
+
+Aggregate Pipeline Operators
+$ project - select, reshape - 1 : 1
+$ match   - filter          - n : 1
+$ group   - aggregation     - n : 1
+$ sort    - sort            - 1 : 1
+$ skip    - skips           - n : 1
+$ limit   - limit           - n : 1
+$ unwind  - explote array in documents
+			    - 1 : n

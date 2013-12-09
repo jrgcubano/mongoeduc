@@ -1,0 +1,16 @@
+# Efficiency of Index Use
+
+Scenario:
+1000000 students in school db
+Indexes: ..., class_id, student_id, (student_id, class_id)
+
+
+Slow: wrong index use, because multikey index start with student_id and we have more students than classes.
+
+db.students.find({student_id:{$gt:500}, class_id:20}).sort({'student_id':1}).explain();
+
+Fast: Hint for class_id index improving our query
+
+db.students.find({student_id:{$gt:500}, class_id:20}).sort({'student_id':1}).hint({'class_id':1}).explain();
+
+

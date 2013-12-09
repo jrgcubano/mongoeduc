@@ -1,0 +1,5 @@
+# Index Creation, Unique
+
+Please provide the mongo shell command to add a unique index to the collection students on the keys student_id, class_id.
+
+Answer: db.students.ensureIndex({ student_id : 1, class_id : 1 }, { unique : true })

@@ -1,0 +1,16 @@
+# Multikey Indexes
+
+Suppose we have a collection foo that has an index created as follows:
+db.foo.ensureIndex({a:1, b:1})
+Which of the following inserts are valid to this collection?
+
+
+(OK) db.foo.insert({a:["apples","oranges"], b:"grapes"})
+
+(OK) db.foo.insert({a:"grapes", b:"oranges"})
+
+(OK) db.foo.insert({a:"grapes", b:[8,9,10]})
+
+db.foo.insert({a:[1,2,3], b:[5,6,7]}) 
+
+Answer: Cannot index parallel arrays in mongo

@@ -1,0 +1,31 @@
+# Using Explain
+
+Given the following output from explain, what is the best description of what happened during the query?
+{
+	"cursor" : "BasicCursor",
+	"isMultiKey" : false,
+	"n" : 100000,
+	"nscannedObjects" : 10000000,
+	"nscanned" : 10000000,
+	"nscannedObjectsAllPlans" : 10000000,
+	"nscannedAllPlans" : 10000000,
+	"scanAndOrder" : false,
+	"indexOnly" : false,
+	"nYields" : 7,
+	"nChunkSkips" : 0,
+	"millis" : 5151,
+	"indexBounds" : {
+		
+	},
+	"server" : "Andrews-iMac.local:27017"
+}
+
+
+
+The query used an index called BasicCursor and returned in a 5151 microseconds
+
+(OK) The query scanned 10,000,000 documents, returning 100,000 in 5.2 seconds.
+
+The query scanned 100,000 documents and return in 5 milliseconds.
+
+The query was able to use a covered index to answer the query entirely within the index without looking at the documents.

@@ -1,0 +1,12 @@
+Remove
+
+Which of the following remove calls would definitely remove all the documents in the collection 'foo', regardless of its contents? Check all that apply.
+
+
+db.collection('foo').remove(callback);
+
+db.collection('foo').remove({ 'x' : { '$nin' : [] } }, callback);
+
+db.collection('foo').remove({}, callback);
+
+db.collection('foo').remove({ 'x' : { '$exists' : true } }, callback);

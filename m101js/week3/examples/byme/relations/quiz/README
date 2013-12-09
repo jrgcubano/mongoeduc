@@ -1,0 +1,26 @@
+# One to One Relations
+
+What's a good reason you might want to keep two documents that are related to each other one-to-one in separate collections? Check all that apply.
+
+
+Because you want to allow atomic update of both documents at once.
+
+(OK) To reduce the working set size of your application.
+
+To enforce foreign key constraints.
+
+(OK) Because the combined size of the documents would be larger than 16MB.
+
+
+# One To Many Relations
+
+When is it recommended to represent a one to many relationship in multiple collections?
+
+
+Always
+
+(OK) Whenever the many is large
+
+Whenever the many is actually few
+
+Never

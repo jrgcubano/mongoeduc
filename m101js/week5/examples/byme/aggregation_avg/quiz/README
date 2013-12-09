@@ -1,0 +1,19 @@
+# Using $avg
+
+This problem uses the same dataset as we described in using $sum quiz and you should review that quiz if you did not complete it.
+Given population data by zip code (postal code) that looks like this:
+
+{
+	"city" : "FISHERS ISLAND",
+	"loc" : [
+		-72.017834,
+		41.263934
+	],
+	"pop" : 329,
+	"state" : "NY",
+	"_id" : "06390"
+}
+Write an aggregation expression to calculate the average population of a zip code (postal code) by state. As before, the postal code is in the _id field and is unique. The collection is assumed to be called "zips" and you should name the key in the result set "average_pop".
+
+Answer:
+db.zips.aggregate([{$group:{"_id": "$state", "average_pop": {"$avg": "$pop"}}}])

@@ -1,0 +1,56 @@
+# Homework 2.2
+
+Write a program that finds the document with the highest recorded temperature for each state, and adds a "month_high" field for that document, setting its value to true. Use the weather dataset that you imported in HW 2.1. 
+
+This is a sample document from the weather data collection:
+
+> use weather
+switched to db weather
+> db.data.findOne()
+{
+    "_id" : ObjectId("520bea012ab230549e749cff"),
+    "Day" : 1,
+    "Time" : 54,
+    "State" : "Vermont",
+    "Airport" : "BTV",
+    "Temperature" : 39,
+    "Humidity" : 57,
+    "Wind Speed" : 6,
+    "Wind Direction" : 170,
+    "Station Pressure" : 29.6,
+    "Sea Level Pressure" : 150
+}
+Assuming this document has the highest "Temperature" for the "State" of "Vermont" in our collection, the document should look like this after you run your program:
+
+db.data.findOne({ "_id" : ObjectId("520bea012ab230549e749cff") })
+{
+    "_id" : ObjectId("520bea012ab230549e749cff"),
+    "Day" : 1,
+    "Time" : 54,
+    "State" : "Vermont",
+    "Airport" : "BTV",
+    "Temperature" : 39,
+    "Humidity" : 57,
+    "Wind Speed" : 6,
+    "Wind Direction" : 170,
+    "Station Pressure" : 29.6,
+    "Sea Level Pressure" : 150,
+    "month_high" : true
+}
+Note that this is only an example and not the actual document that you would be updating. Note also that our collection only has one month of data for each "State", which is why we are asking you to set "month_high".
+
+Hint: If you select all the weather documents, you can sort first by state, then by temperature. Then you can iterate through the documents and know that whenever the state changes you have reached the highest temperature for that state. 
+
+Once you've done this, you can validate it using the validation script we've provided in the 'validate' directory. Just run the following commands:
+
+cd validate
+npm install
+node validate.js
+If you got it right, it will provide a validation code for you to enter into the box below. Enter just the code, no spaces. If you fail validation or have messed up your collection beyond repair, run the following to drop the weather database so you can reimport the data and try again:
+
+mongo weather --eval "printjson(db.dropDatabase())"
+
+App: app.js
+
+Validation: WSRMOzQ4KTKhFEC6rUDn
+

@@ -1,0 +1,12 @@
+Using $regex:
+
+Which of the following query expressions would match a document with 'Microsoft' anywhere in the 'title' field? Select all that apply.
+
+
+(OK) { 'title' : { '$regex' : 'Microsoft' } }
+
+{ '$regex' : 'Microsoft' }
+
+{ 'title' : { '$regex' : '^Microsoft' } }
+
+{ 'title' : 'Microsoft' }

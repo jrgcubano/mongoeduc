@@ -1,0 +1,12 @@
+# Indexes
+
+Which optimization will typically have the greatest impact on the performance of a database?
+
+
+Adding more memory so that the working set fits in memory.
+
+Adding a faster drive so that operations that hit disk will happen more quickly.
+
+Replacing your CPU with a faster one (say one 2x as fast).
+
+(OK) Adding appropriate indexes on large collections so that only a small percentage of queries need to scan the collection.

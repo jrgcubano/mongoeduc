@@ -1,0 +1,17 @@
+{
+  "name": "validate",
+  "version": "0.0.0",
+  "description": "Validation script for hw2-2",
+  "main": "validate.js",
+  "dependencies": {
+    "mongodb": "~1.3.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "private": true
+}

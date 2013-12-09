@@ -1,0 +1,12 @@
+# Living without Transactions
+
+Which of the following operations operate atomically within a single document? Check all that apply.
+
+
+(OK) Update
+
+(OK) findAndModify
+
+(OK) $addToSet (within an update)
+
+(OK) $push within an update

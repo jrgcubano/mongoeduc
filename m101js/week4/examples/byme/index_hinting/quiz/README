@@ -1,0 +1,38 @@
+# Hinting an Index
+
+Given the following data in a collection:
+> db.people.find()
+{ "_id" : ObjectId("50a464fb0a9dfcc4f19d6271"), "name" : "Andrew", "title" : "Jester" }
+{ "_id" : ObjectId("50a4650c0a9dfcc4f19d6272"), "name" : "Dwight", "title" : "CEO" }
+{ "_id" : ObjectId("50a465280a9dfcc4f19d6273"), "name" : "John" }
+and the following indexex:
+> db.people.getIndexes()
+[
+	{
+		"v" : 1,
+		"key" : {
+			"_id" : 1
+		},
+		"ns" : "test.people",
+		"name" : "_id_"
+	},
+	{
+		"v" : 1,
+		"key" : {
+			"title" : 1
+		},
+		"ns" : "test.people",
+		"name" : "title_1",
+		"sparse" : 1
+	}
+]
+Which query below will return the most documents?
+
+
+(OK) db.people.find().sort({'title':1}).hint({$natural:1})
+
+db.people.find().sort({'title':1})
+
+db.people.find({name:{$ne:"Kevin"}}).sort({'title':1})
+
+db.people.find({'title':{$ne:null}}).hint({'title':1})

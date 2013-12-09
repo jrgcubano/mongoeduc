@@ -1,0 +1,6 @@
+Which of the following queries will cause only the "grade" field to be returned?
+
+db.collection('grades').find({ 'grades' : 0, '_id' : 1 }, callback);
+db.collection('grades').find({ 'grades' : 1, '_id' : 0 }, callback);
+db.collection('grades').find({}, { 'grades' : 1, '_id' : 0 }, callback); <- answer
+db.collection('grades').find({}, { 'grades' : 1 }, callback);

@@ -1,0 +1,14 @@
+# Index Creation, Background
+
+Which things are true about creating an index in the background in MongoDB. Check all that apply.
+
+
+A mongod instance can only build one background index at a time per database.
+
+(OK) Although the database server will continue to take requests, a background index creation still blocks the mongo shell that you are using to create the index.
+
+(OK) Creating an index in the background takes longer than creating it in the foreground
+
+In Mongo 2.2 and above, indexes are created in the background by default.
+
+

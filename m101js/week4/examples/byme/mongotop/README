@@ -1,0 +1,6 @@
+# Mongotop
+
+Like unix top command
+
+python stress_students.py // Console 1, query to mongodb
+mongotop 3 // Console 2, execute mongostop every 3 seconds

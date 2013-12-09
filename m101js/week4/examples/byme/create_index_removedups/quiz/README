@@ -1,0 +1,12 @@
+# Index Creation, Removing Dups
+
+If you choose the dropDups option when creating a unique index, what will the MongoDB do to documents that conflict with an existing index entry?
+
+
+Move them to an archive collection.
+
+Unset the conflicting key so that they can be indexed and remain in the collection.
+
+Remove them but write the deleted documents in JSON to a special file in the log directory.
+
+(OK) Delete them for ever and ever, Amen.

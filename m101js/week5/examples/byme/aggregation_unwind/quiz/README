@@ -1,0 +1,16 @@
+# $unwind
+
+Suppose you have the following collection:
+db.people.find()
+{ "_id" : "Barack Obama", "likes" : [ "social justice", "health care", "taxes" ] }
+{ "_id" : "Mitt Romney", "likes" : [ "a balanced budget", "corporations", "binders full of women" ] }
+And you unwind the "likes" array of each document. How many documents will you wind up with?
+
+
+2
+
+4
+
+(OK) 6
+
+9

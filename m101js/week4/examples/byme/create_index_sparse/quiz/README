@@ -1,0 +1,22 @@
+# Index Creation, Sparse
+
+Suppose you had the following documents in a collection called people with the following docs:
+> db.people.find()
+{ "_id" : ObjectId("50a464fb0a9dfcc4f19d6271"), "name" : "Andrew", "title" : "Jester" }
+{ "_id" : ObjectId("50a4650c0a9dfcc4f19d6272"), "name" : "Dwight", "title" : "CEO" }
+{ "_id" : ObjectId("50a465280a9dfcc4f19d6273"), "name" : "John" }
+And there is an index defined as follows:
+db.people.ensureIndex({title:1}, {sparse:1})
+If you perform the following query, what do you get back, and why?
+db.people.find({title:null})
+
+
+(OK) No documents, because the query uses the index and there are no documents with title:null in the index.
+
+No documents, because querying for title:null only finds documents that explicitly have title:null, regardless of the index.
+
+The document for John, because the query won't use the index.
+
+All the documents in the collection, because title:null matches all documents.
+
+The document for John, because the ensureIndex command won't succeed in this case.

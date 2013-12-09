@@ -1,0 +1,14 @@
+Upserts
+
+db.collection('grades').save({'_id': 'email@example.com', 'name': 'Joe'}, callback);
+Assuming the necessary variables are defined, what is the result of calling this function?
+
+
+
+Attempt to insert the object and throw an error if '_id' is not unique
+
+Update and replace the document
+
+(OK) Upsert to insert or replace the document
+
+Do an in place update

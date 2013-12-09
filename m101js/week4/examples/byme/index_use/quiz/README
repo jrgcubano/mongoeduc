@@ -1,0 +1,14 @@
+# When is an index used?
+
+Given collection foo with the following index:
+db.foo.ensureIndex({a:1, b:1, c:1})
+Which of the following queries will use the index?
+
+
+db.foo.find({b:3, c:4})
+
+(OK) db.foo.find({a:3})
+
+(OK) db.foo.find({c:1}).sort({a:1, b:1})
+
+db.foo.find({c:1}).sort({a:-1, b:1})

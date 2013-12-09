@@ -1,0 +1,29 @@
+# Schema Design
+
+What's the single most important factor in designing your application schema within MongoDB?
+
+
+Making the design extensible.
+
+Making it easy to read by a human.
+
+(OK) Matching the data access patterns of your application.
+
+Keeping the data in third normal form.
+
+
+
+# Design for Blog
+
+Which data access pattern is not well supported by the blog schema?
+
+
+Collecting the most recent blog entries for the blog home page
+
+Collecting all the information to display a single post
+
+(OK) Collecting all comments by a single author
+
+Providing a table of contents by tag
+
+

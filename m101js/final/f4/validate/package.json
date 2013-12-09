@@ -1,0 +1,13 @@
+{
+  "name": "validate",
+  "version": "0.0.0",
+  "description": "Final exam question 4 validation script",
+  "main": "final4-validate.js",
+  "dependencies": {
+    "bcrypt-nodejs": "~0.0.3",
+    "commander": "~2.0.0",
+    "request": "~2.27.0"
+  },
+  "license": "BSD",
+  "private": true
+}

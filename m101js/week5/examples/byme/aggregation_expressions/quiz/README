@@ -1,0 +1,33 @@
+# Aggregation Expressions
+
+All can be used in $group:
+- $sum 
+- $avg
+- $min 
+- $max
+
+- $push 
+- $addToSet
+
+- $firt (need sort first)
+- $last (neew sort first)
+
+
+Which of the following aggregation expressions must be used in conjunction with a sort to make any sense?
+
+
+$addToSet
+
+(OK) $first
+
+(OK) $last
+
+$max
+
+$min
+
+$avg
+
+$push
+
+$sum

@@ -1,0 +1,22 @@
+/* Using Dot Notation
+
+Use dot notation to construct a query that selects for a document with a 'name' of 'Steve' in the 
+'students' array. Put your answer in the box below. Please use double quotes when constructing 
+your answer.
+
+Here is an example of a document that should match the query:
+
+{
+    'course' : 'M101JS',
+    'students' : [
+        {
+            'name' : 'Susan'
+        },
+        {
+            'name' : 'Steve'
+        }
+    ]
+}
+*/
+
+// var query = { "students.name" : "Steve" };

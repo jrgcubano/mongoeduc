@@ -1,0 +1,11 @@
+Using field projection:
+
+Which of the following queries will cause only the 'grade' field to be returned?
+
+db.collection('grades').find({'grade':0,"_id:1}, callback);
+
+db.collection('grades').find({'grade':1,"_id:0}, callback);
+
+(OK) db.collection('grades').find({}, {'grade':1, '_id':0}, callback);
+
+db.collection('grades').find({}, {'grade':1}, callback);
