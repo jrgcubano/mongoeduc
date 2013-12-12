@@ -1,39 +1,16 @@
-var MongoClient = require('mongodb').MongoClient;
+use photoshare
 
-MongoClient.connect('mongodb://localhost:27017/photosharing', function(err, db) {
-    if(err) throw err;
+db.albums.ensureIndex({'images':1});
+var cur = db.images.find();
 
-    var cursor = db.collection('images').find(); 
-    var imagesToDelete = [];
+var j = 0;
+while(cur.hasNext()){
+	doc = cur.next();
+	image_id = doc._id
 
-    var i = 0;
-    cursor.each(function(err, doc){
-        if(err) throw err;
-        if(doc == null){
-            return db.close();
-        }
-
-        db.collection('albums', function(err, albums_col){
-            if(err) throw err;
-
-            var image_id = doc._id;
-            albums_col.find({'images' : image_id})
-                      .count(function(err, total){
-                if(err) throw err;
-                if(total == 0){
-                    console.log('ForDelete: ' + image_id); 
-                    // db.collection('images', function(err, images_col){
-                    //     if(err) throw err;
-
-                        // images_col.remove({'_id': image_id}, function(err, result){
-                        //     console.log('Try delete: ' + result); 
-                        //     if(err) throw err;
-                        //     console.log('Deleted: ' + result); 
-                        // });
-                    // });
-                      imagesToDelete.push(image_id);
-                }
-            });
-        });
-    });
-});
+	b = db.albums.find({images : image_id}).count()
+	if(b == 0){
+		db.images.remove({_id:image_id})
+		j++;
+	}
+}
