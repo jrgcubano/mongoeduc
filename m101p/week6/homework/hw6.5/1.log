@@ -1,0 +1,263 @@
+Thu Jan  2 16:59:00.172 [initandlisten] MongoDB starting : pid=4198 port=27017 dbpath=/data/rs1 64-bit host=jhome.local
+Thu Jan  2 16:59:00.172 [initandlisten] db version v2.4.7
+Thu Jan  2 16:59:00.173 [initandlisten] git version: nogitversion
+Thu Jan  2 16:59:00.173 [initandlisten] build info: Darwin jhome.local 12.5.0 Darwin Kernel Version 12.5.0: Mon Jul 29 16:33:49 PDT 2013; root:xnu-2050.48.11~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+Thu Jan  2 16:59:00.173 [initandlisten] allocator: tcmalloc
+Thu Jan  2 16:59:00.173 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/usr/local/etc/mongod.conf", dbpath: "/data/rs1", fork: true, logappend: "true", logpath: "1.log", oplogSize: 64, port: 27017, replSet: "m101", smallfiles: true }
+Thu Jan  2 16:59:00.173 [initandlisten] exception in initAndListen: 10309 Unable to create/open lock file: /data/rs1/mongod.lock errno:13 Permission denied Is a mongod instance already running?, terminating
+Thu Jan  2 16:59:00.173 dbexit: 
+Thu Jan  2 16:59:00.173 [initandlisten] shutdown: going to close listening sockets...
+Thu Jan  2 16:59:00.173 [initandlisten] shutdown: going to flush diaglog...
+Thu Jan  2 16:59:00.173 [initandlisten] shutdown: going to close sockets...
+Thu Jan  2 16:59:00.173 [initandlisten] shutdown: waiting for fs preallocator...
+Thu Jan  2 16:59:00.173 [initandlisten] shutdown: lock for final commit...
+Thu Jan  2 16:59:00.173 [initandlisten] shutdown: final commit...
+Thu Jan  2 16:59:00.173 [initandlisten] shutdown: closing all files...
+Thu Jan  2 16:59:00.174 [initandlisten] closeAllFiles() finished
+Thu Jan  2 16:59:00.174 [initandlisten] shutdown: removing fs lock...
+Thu Jan  2 16:59:00.174 [initandlisten] couldn't remove fs lock errno:9 Bad file descriptor
+Thu Jan  2 16:59:00.174 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Thu Jan  2 16:59:04.264 [initandlisten] MongoDB starting : pid=4215 port=27017 dbpath=/data/rs1 64-bit host=jhome.local
+Thu Jan  2 16:59:04.264 [initandlisten] db version v2.4.7
+Thu Jan  2 16:59:04.264 [initandlisten] git version: nogitversion
+Thu Jan  2 16:59:04.264 [initandlisten] build info: Darwin jhome.local 12.5.0 Darwin Kernel Version 12.5.0: Mon Jul 29 16:33:49 PDT 2013; root:xnu-2050.48.11~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+Thu Jan  2 16:59:04.264 [initandlisten] allocator: tcmalloc
+Thu Jan  2 16:59:04.264 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/usr/local/etc/mongod.conf", dbpath: "/data/rs1", fork: true, logappend: "true", logpath: "1.log", oplogSize: 64, port: 27017, replSet: "m101", smallfiles: true }
+Thu Jan  2 16:59:04.265 [initandlisten] journal dir=/data/rs1/journal
+Thu Jan  2 16:59:04.265 [initandlisten] recover : no journal files present, no recovery needed
+Thu Jan  2 16:59:04.279 [FileAllocator] allocating new datafile /data/rs1/local.ns, filling with zeroes...
+Thu Jan  2 16:59:04.279 [FileAllocator] creating directory /data/rs1/_tmp
+Thu Jan  2 16:59:04.300 [FileAllocator] done allocating datafile /data/rs1/local.ns, size: 16MB,  took 0.02 secs
+Thu Jan  2 16:59:04.325 [FileAllocator] allocating new datafile /data/rs1/local.0, filling with zeroes...
+Thu Jan  2 16:59:04.347 [FileAllocator] done allocating datafile /data/rs1/local.0, size: 16MB,  took 0.022 secs
+Thu Jan  2 16:59:04.373 [websvr] ERROR: listen(): bind() failed errno:48 Address already in use for socket: 127.0.0.1:28017
+Thu Jan  2 16:59:04.373 [initandlisten] ERROR: listen(): bind() failed errno:48 Address already in use for socket: 127.0.0.1:27017
+Thu Jan  2 16:59:04.373 [websvr] ERROR:   addr already in use
+Thu Jan  2 16:59:04.373 [initandlisten] ERROR:   addr already in use
+Thu Jan  2 16:59:04.374 [initandlisten] now exiting
+Thu Jan  2 16:59:04.374 dbexit: 
+Thu Jan  2 16:59:04.374 [initandlisten] shutdown: going to close listening sockets...
+Thu Jan  2 16:59:04.374 [initandlisten] shutdown: going to flush diaglog...
+Thu Jan  2 16:59:04.374 [initandlisten] shutdown: going to close sockets...
+Thu Jan  2 16:59:04.374 [initandlisten] shutdown: waiting for fs preallocator...
+Thu Jan  2 16:59:04.374 [initandlisten] shutdown: lock for final commit...
+Thu Jan  2 16:59:04.374 [initandlisten] shutdown: final commit...
+Thu Jan  2 16:59:04.413 [initandlisten] shutdown: closing all files...
+Thu Jan  2 16:59:04.413 [initandlisten] closeAllFiles() finished
+Thu Jan  2 16:59:04.413 [initandlisten] journalCleanup...
+Thu Jan  2 16:59:04.413 [initandlisten] removeJournalFiles
+Thu Jan  2 16:59:04.413 [initandlisten] shutdown: removing fs lock...
+Thu Jan  2 16:59:04.414 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Thu Jan  2 17:02:51.045 [initandlisten] MongoDB starting : pid=4410 port=27017 dbpath=/data/rs1 64-bit host=jhome.local
+Thu Jan  2 17:02:51.047 [initandlisten] db version v2.4.7
+Thu Jan  2 17:02:51.047 [initandlisten] git version: nogitversion
+Thu Jan  2 17:02:51.047 [initandlisten] build info: Darwin jhome.local 12.5.0 Darwin Kernel Version 12.5.0: Mon Jul 29 16:33:49 PDT 2013; root:xnu-2050.48.11~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+Thu Jan  2 17:02:51.047 [initandlisten] allocator: tcmalloc
+Thu Jan  2 17:02:51.047 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/usr/local/etc/mongod.conf", dbpath: "/data/rs1", fork: true, logappend: "true", logpath: "1.log", oplogSize: 64, port: 27017, replSet: "m101", smallfiles: true }
+Thu Jan  2 17:02:51.047 [initandlisten] exception in initAndListen: 10309 Unable to create/open lock file: /data/rs1/mongod.lock errno:13 Permission denied Is a mongod instance already running?, terminating
+Thu Jan  2 17:02:51.048 dbexit: 
+Thu Jan  2 17:02:51.048 [initandlisten] shutdown: going to close listening sockets...
+Thu Jan  2 17:02:51.048 [initandlisten] shutdown: going to flush diaglog...
+Thu Jan  2 17:02:51.048 [initandlisten] shutdown: going to close sockets...
+Thu Jan  2 17:02:51.048 [initandlisten] shutdown: waiting for fs preallocator...
+Thu Jan  2 17:02:51.048 [initandlisten] shutdown: lock for final commit...
+Thu Jan  2 17:02:51.048 [initandlisten] shutdown: final commit...
+Thu Jan  2 17:02:51.048 [initandlisten] shutdown: closing all files...
+Thu Jan  2 17:02:51.048 [initandlisten] closeAllFiles() finished
+Thu Jan  2 17:02:51.048 [initandlisten] shutdown: removing fs lock...
+Thu Jan  2 17:02:51.048 [initandlisten] couldn't remove fs lock errno:9 Bad file descriptor
+Thu Jan  2 17:02:51.048 dbexit: really exiting now
+
+
+***** SERVER RESTARTED *****
+
+
+Thu Jan  2 17:02:53.947 [initandlisten] MongoDB starting : pid=4427 port=27017 dbpath=/data/rs1 64-bit host=jhome.local
+Thu Jan  2 17:02:53.947 [initandlisten] db version v2.4.7
+Thu Jan  2 17:02:53.947 [initandlisten] git version: nogitversion
+Thu Jan  2 17:02:53.947 [initandlisten] build info: Darwin jhome.local 12.5.0 Darwin Kernel Version 12.5.0: Mon Jul 29 16:33:49 PDT 2013; root:xnu-2050.48.11~1/RELEASE_X86_64 x86_64 BOOST_LIB_VERSION=1_49
+Thu Jan  2 17:02:53.947 [initandlisten] allocator: tcmalloc
+Thu Jan  2 17:02:53.947 [initandlisten] options: { bind_ip: "127.0.0.1", config: "/usr/local/etc/mongod.conf", dbpath: "/data/rs1", fork: true, logappend: "true", logpath: "1.log", oplogSize: 64, port: 27017, replSet: "m101", smallfiles: true }
+Thu Jan  2 17:02:53.948 [initandlisten] journal dir=/data/rs1/journal
+Thu Jan  2 17:02:53.948 [initandlisten] recover : no journal files present, no recovery needed
+Thu Jan  2 17:02:53.968 [websvr] admin web console waiting for connections on port 28017
+Thu Jan  2 17:02:53.968 [initandlisten] waiting for connections on port 27017
+Thu Jan  2 17:02:53.969 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Thu Jan  2 17:02:53.969 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+Thu Jan  2 17:03:03.971 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Thu Jan  2 17:03:13.013 [initandlisten] connection accepted from 127.0.0.1:56205 #1 (1 connection now open)
+Thu Jan  2 17:03:13.972 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Thu Jan  2 17:03:23.973 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Thu Jan  2 17:03:24.441 [conn1] end connection 127.0.0.1:56205 (0 connections now open)
+Thu Jan  2 17:03:33.974 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Thu Jan  2 17:03:37.964 [initandlisten] connection accepted from 127.0.0.1:56206 #2 (1 connection now open)
+Thu Jan  2 17:03:42.864 [conn2] end connection 127.0.0.1:56206 (0 connections now open)
+Thu Jan  2 17:03:43.975 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Thu Jan  2 17:03:53.976 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Thu Jan  2 17:04:03.978 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+Thu Jan  2 17:04:07.343 [initandlisten] connection accepted from 127.0.0.1:56208 #3 (1 connection now open)
+Thu Jan  2 17:04:07.348 [conn3] replSet replSetInitiate admin command received from client
+Thu Jan  2 17:04:07.348 [conn3] replSet replSetInitiate config object parses ok, 3 members specified
+Thu Jan  2 17:04:07.351 [conn3] replSet replSetInitiate all members seem up
+Thu Jan  2 17:04:07.351 [conn3] ******
+Thu Jan  2 17:04:07.351 [conn3] creating replication oplog of size: 64MB...
+Thu Jan  2 17:04:07.351 [FileAllocator] allocating new datafile /data/rs1/local.1, filling with zeroes...
+Thu Jan  2 17:04:07.352 [FileAllocator] creating directory /data/rs1/_tmp
+Thu Jan  2 17:04:07.671 [FileAllocator] done allocating datafile /data/rs1/local.1, size: 128MB,  took 0.319 secs
+Thu Jan  2 17:04:07.712 [conn3] ******
+Thu Jan  2 17:04:07.712 [conn3] replSet info saving a newer config version to local.system.replset
+Thu Jan  2 17:04:07.729 [conn3] replSet saveConfigLocally done
+Thu Jan  2 17:04:07.729 [conn3] replSet replSetInitiate config now saved locally.  Should come online in about a minute.
+Thu Jan  2 17:04:07.729 [conn3] command admin.$cmd command: { replSetInitiate: { _id: "m101", members: [ { _id: 0.0, host: "localhost:27017" }, { _id: 1.0, host: "localhost:27018" }, { _id: 2.0, host: "localhost:27019" } ] } } ntoreturn:1 keyUpdates:0 locks(micros) W:378304 reslen:112 381ms
+Thu Jan  2 17:04:07.731 [conn3] end connection 127.0.0.1:56208 (0 connections now open)
+Thu Jan  2 17:04:12.268 [initandlisten] connection accepted from 127.0.0.1:56211 #4 (1 connection now open)
+Thu Jan  2 17:04:13.791 [conn4] end connection 127.0.0.1:56211 (0 connections now open)
+Thu Jan  2 17:04:13.979 [rsStart] replSet I am localhost:27017
+Thu Jan  2 17:04:13.979 [rsStart] replSet STARTUP2
+Thu Jan  2 17:04:13.980 [rsHealthPoll] replSet member localhost:27018 is up
+Thu Jan  2 17:04:14.133 [initandlisten] connection accepted from 127.0.0.1:56212 #5 (1 connection now open)
+Thu Jan  2 17:04:14.981 [rsSync] replSet SECONDARY
+Thu Jan  2 17:04:15.980 [rsHealthPoll] replSet member localhost:27019 is up
+Thu Jan  2 17:04:15.980 [rsHealthPoll] replset info localhost:27018 thinks that we are down
+Thu Jan  2 17:04:15.981 [rsHealthPoll] replSet member localhost:27018 is now in state STARTUP2
+Thu Jan  2 17:04:15.981 [rsMgr] not electing self, localhost:27018 would veto with 'I don't think localhost:27017 is electable'
+Thu Jan  2 17:04:15.981 [rsMgr] not electing self, localhost:27018 would veto with 'I don't think localhost:27017 is electable'
+Thu Jan  2 17:04:18.275 [initandlisten] connection accepted from 127.0.0.1:56214 #6 (2 connections now open)
+Thu Jan  2 17:04:21.984 [rsMgr] replSet not electing self, not all members up and we have been up less than 5 minutes
+Thu Jan  2 17:04:24.298 [initandlisten] connection accepted from 127.0.0.1:56215 #7 (3 connections now open)
+Thu Jan  2 17:04:25.987 [rsHealthPoll] replset info localhost:27019 thinks that we are down
+Thu Jan  2 17:04:25.987 [rsHealthPoll] replSet member localhost:27019 is now in state STARTUP2
+Thu Jan  2 17:04:25.987 [rsMgr] not electing self, localhost:27019 would veto with 'I don't think localhost:27017 is electable'
+Thu Jan  2 17:04:30.146 [conn5] end connection 127.0.0.1:56212 (2 connections now open)
+Thu Jan  2 17:04:30.146 [initandlisten] connection accepted from 127.0.0.1:56218 #8 (3 connections now open)
+Thu Jan  2 17:04:30.546 [initandlisten] connection accepted from 127.0.0.1:56219 #9 (4 connections now open)
+Thu Jan  2 17:04:30.577 [conn9] end connection 127.0.0.1:56219 (3 connections now open)
+Thu Jan  2 17:04:31.991 [rsHealthPoll] replSet member localhost:27018 is now in state RECOVERING
+Thu Jan  2 17:04:31.991 [rsMgr] replSet info electSelf 0
+Thu Jan  2 17:04:31.997 [rsMgr] replSet PRIMARY
+Thu Jan  2 17:04:32.155 [initandlisten] connection accepted from 127.0.0.1:56220 #10 (4 connections now open)
+Thu Jan  2 17:04:32.580 [initandlisten] connection accepted from 127.0.0.1:56221 #11 (5 connections now open)
+Thu Jan  2 17:04:33.583 [slaveTracking] build index local.slaves { _id: 1 }
+Thu Jan  2 17:04:33.584 [slaveTracking] build index done.  scanned 0 total records. 0.001 secs
+Thu Jan  2 17:04:33.992 [rsHealthPoll] replSet member localhost:27019 is now in state RECOVERING
+Thu Jan  2 17:04:33.992 [rsHealthPoll] replSet member localhost:27018 is now in state SECONDARY
+Thu Jan  2 17:04:40.312 [conn7] end connection 127.0.0.1:56215 (4 connections now open)
+Thu Jan  2 17:04:40.313 [initandlisten] connection accepted from 127.0.0.1:56222 #12 (5 connections now open)
+Thu Jan  2 17:04:40.668 [initandlisten] connection accepted from 127.0.0.1:56223 #13 (6 connections now open)
+Thu Jan  2 17:04:40.701 [conn13] end connection 127.0.0.1:56223 (5 connections now open)
+Thu Jan  2 17:04:41.320 [initandlisten] connection accepted from 127.0.0.1:56224 #14 (6 connections now open)
+Thu Jan  2 17:04:41.702 [initandlisten] connection accepted from 127.0.0.1:56226 #15 (7 connections now open)
+Thu Jan  2 17:04:44.000 [rsHealthPoll] replSet member localhost:27019 is now in state SECONDARY
+Thu Jan  2 17:04:49.380 [conn6] end connection 127.0.0.1:56214 (6 connections now open)
+Thu Jan  2 17:04:50.272 [initandlisten] connection accepted from 127.0.0.1:56230 #16 (7 connections now open)
+Thu Jan  2 17:05:00.165 [conn8] end connection 127.0.0.1:56218 (6 connections now open)
+Thu Jan  2 17:05:00.166 [initandlisten] connection accepted from 127.0.0.1:56234 #17 (7 connections now open)
+Thu Jan  2 17:05:01.723 [conn16] end connection 127.0.0.1:56230 (6 connections now open)
+Thu Jan  2 17:05:10.331 [conn12] end connection 127.0.0.1:56222 (5 connections now open)
+Thu Jan  2 17:05:10.332 [initandlisten] connection accepted from 127.0.0.1:56235 #18 (7 connections now open)
+Thu Jan  2 17:05:30.185 [conn17] end connection 127.0.0.1:56234 (5 connections now open)
+Thu Jan  2 17:05:30.185 [initandlisten] connection accepted from 127.0.0.1:56241 #19 (6 connections now open)
+Thu Jan  2 17:05:40.351 [conn18] end connection 127.0.0.1:56235 (5 connections now open)
+Thu Jan  2 17:05:40.351 [initandlisten] connection accepted from 127.0.0.1:56242 #20 (6 connections now open)
+Thu Jan  2 17:06:00.204 [conn19] end connection 127.0.0.1:56241 (5 connections now open)
+Thu Jan  2 17:06:00.204 [initandlisten] connection accepted from 127.0.0.1:56247 #21 (6 connections now open)
+Thu Jan  2 17:06:10.370 [conn20] end connection 127.0.0.1:56242 (5 connections now open)
+Thu Jan  2 17:06:10.370 [initandlisten] connection accepted from 127.0.0.1:56254 #22 (7 connections now open)
+Thu Jan  2 17:06:30.224 [conn21] end connection 127.0.0.1:56247 (5 connections now open)
+Thu Jan  2 17:06:30.224 [initandlisten] connection accepted from 127.0.0.1:56260 #23 (6 connections now open)
+Thu Jan  2 17:06:32.244 [initandlisten] connection accepted from 127.0.0.1:56261 #24 (7 connections now open)
+Thu Jan  2 17:06:32.253 [conn24] end connection 127.0.0.1:56261 (6 connections now open)
+Thu Jan  2 17:06:32.257 [initandlisten] connection accepted from 127.0.0.1:56262 #25 (7 connections now open)
+Thu Jan  2 17:06:32.258 [initandlisten] connection accepted from 127.0.0.1:56263 #26 (8 connections now open)
+Thu Jan  2 17:06:32.259 [initandlisten] connection accepted from 127.0.0.1:56264 #27 (9 connections now open)
+Thu Jan  2 17:06:32.259 [initandlisten] connection accepted from 127.0.0.1:56265 #28 (10 connections now open)
+Thu Jan  2 17:06:32.260 [initandlisten] connection accepted from 127.0.0.1:56266 #29 (11 connections now open)
+Thu Jan  2 17:06:32.275 [initandlisten] connection accepted from 127.0.0.1:56277 #30 (12 connections now open)
+Thu Jan  2 17:06:32.275 [initandlisten] connection accepted from 127.0.0.1:56278 #31 (13 connections now open)
+Thu Jan  2 17:06:32.279 [conn25] end connection 127.0.0.1:56262 (12 connections now open)
+Thu Jan  2 17:06:32.279 [conn26] end connection 127.0.0.1:56263 (12 connections now open)
+Thu Jan  2 17:06:32.279 [conn27] end connection 127.0.0.1:56264 (12 connections now open)
+Thu Jan  2 17:06:32.279 [conn28] end connection 127.0.0.1:56265 (12 connections now open)
+Thu Jan  2 17:06:32.279 [conn29] end connection 127.0.0.1:56266 (12 connections now open)
+Thu Jan  2 17:06:32.280 [conn30] end connection 127.0.0.1:56277 (7 connections now open)
+Thu Jan  2 17:06:32.281 [conn31] end connection 127.0.0.1:56278 (6 connections now open)
+Thu Jan  2 17:06:40.389 [conn22] end connection 127.0.0.1:56254 (5 connections now open)
+Thu Jan  2 17:06:40.389 [initandlisten] connection accepted from 127.0.0.1:56281 #32 (6 connections now open)
+Thu Jan  2 17:07:00.245 [conn23] end connection 127.0.0.1:56260 (5 connections now open)
+Thu Jan  2 17:07:00.245 [initandlisten] connection accepted from 127.0.0.1:56286 #33 (7 connections now open)
+Thu Jan  2 17:07:10.410 [conn32] end connection 127.0.0.1:56281 (5 connections now open)
+Thu Jan  2 17:07:10.410 [initandlisten] connection accepted from 127.0.0.1:56288 #34 (6 connections now open)
+Thu Jan  2 17:07:30.267 [conn33] end connection 127.0.0.1:56286 (5 connections now open)
+Thu Jan  2 17:07:30.267 [initandlisten] connection accepted from 127.0.0.1:56293 #35 (6 connections now open)
+Thu Jan  2 17:07:40.431 [conn34] end connection 127.0.0.1:56288 (5 connections now open)
+Thu Jan  2 17:07:40.432 [initandlisten] connection accepted from 127.0.0.1:56294 #36 (6 connections now open)
+Thu Jan  2 17:07:52.358 [initandlisten] connection accepted from 127.0.0.1:56299 #37 (7 connections now open)
+Thu Jan  2 17:07:52.377 [conn37] end connection 127.0.0.1:56299 (6 connections now open)
+Thu Jan  2 17:08:00.288 [conn35] end connection 127.0.0.1:56293 (5 connections now open)
+Thu Jan  2 17:08:00.289 [initandlisten] connection accepted from 127.0.0.1:56304 #38 (6 connections now open)
+Thu Jan  2 17:08:10.451 [conn36] end connection 127.0.0.1:56294 (5 connections now open)
+Thu Jan  2 17:08:10.451 [initandlisten] connection accepted from 127.0.0.1:56307 #39 (6 connections now open)
+Thu Jan  2 17:08:30.309 [conn38] end connection 127.0.0.1:56304 (5 connections now open)
+Thu Jan  2 17:08:30.309 [initandlisten] connection accepted from 127.0.0.1:56314 #40 (6 connections now open)
+Thu Jan  2 17:08:40.470 [conn39] end connection 127.0.0.1:56307 (5 connections now open)
+Thu Jan  2 17:08:40.470 [initandlisten] connection accepted from 127.0.0.1:56319 #41 (6 connections now open)
+Thu Jan  2 17:09:00.327 [conn40] end connection 127.0.0.1:56314 (5 connections now open)
+Thu Jan  2 17:09:00.327 [initandlisten] connection accepted from 127.0.0.1:56328 #42 (7 connections now open)
+Thu Jan  2 17:09:10.490 [conn41] end connection 127.0.0.1:56319 (5 connections now open)
+Thu Jan  2 17:09:10.490 [initandlisten] connection accepted from 127.0.0.1:56329 #43 (7 connections now open)
+Thu Jan  2 17:09:30.348 [conn42] end connection 127.0.0.1:56328 (5 connections now open)
+Thu Jan  2 17:09:30.348 [initandlisten] connection accepted from 127.0.0.1:56338 #44 (7 connections now open)
+Thu Jan  2 17:09:40.510 [conn43] end connection 127.0.0.1:56329 (5 connections now open)
+Thu Jan  2 17:09:40.510 [initandlisten] connection accepted from 127.0.0.1:56340 #45 (6 connections now open)
+Thu Jan  2 17:10:00.368 [conn44] end connection 127.0.0.1:56338 (5 connections now open)
+Thu Jan  2 17:10:00.368 [initandlisten] connection accepted from 127.0.0.1:56345 #46 (6 connections now open)
+Thu Jan  2 17:10:10.532 [conn45] end connection 127.0.0.1:56340 (5 connections now open)
+Thu Jan  2 17:10:10.532 [initandlisten] connection accepted from 127.0.0.1:56346 #47 (6 connections now open)
+Thu Jan  2 17:10:30.386 [conn46] end connection 127.0.0.1:56345 (5 connections now open)
+Thu Jan  2 17:10:30.386 [initandlisten] connection accepted from 127.0.0.1:56352 #48 (6 connections now open)
+Thu Jan  2 17:10:40.552 [conn47] end connection 127.0.0.1:56346 (5 connections now open)
+Thu Jan  2 17:10:40.552 [initandlisten] connection accepted from 127.0.0.1:56353 #49 (6 connections now open)
+Thu Jan  2 17:11:00.406 [conn48] end connection 127.0.0.1:56352 (5 connections now open)
+Thu Jan  2 17:11:00.406 [initandlisten] connection accepted from 127.0.0.1:56358 #50 (6 connections now open)
+Thu Jan  2 17:11:10.570 [conn49] end connection 127.0.0.1:56353 (5 connections now open)
+Thu Jan  2 17:11:10.570 [initandlisten] connection accepted from 127.0.0.1:56359 #51 (7 connections now open)
+Thu Jan  2 17:11:30.427 [conn50] end connection 127.0.0.1:56358 (5 connections now open)
+Thu Jan  2 17:11:30.428 [initandlisten] connection accepted from 127.0.0.1:56365 #52 (6 connections now open)
+Thu Jan  2 17:11:40.591 [conn51] end connection 127.0.0.1:56359 (5 connections now open)
+Thu Jan  2 17:11:40.591 [initandlisten] connection accepted from 127.0.0.1:56366 #53 (6 connections now open)
+Thu Jan  2 17:12:00.448 [conn52] end connection 127.0.0.1:56365 (5 connections now open)
+Thu Jan  2 17:12:00.448 [initandlisten] connection accepted from 127.0.0.1:56375 #54 (6 connections now open)
+Thu Jan  2 17:12:10.608 [conn53] end connection 127.0.0.1:56366 (5 connections now open)
+Thu Jan  2 17:12:10.608 [initandlisten] connection accepted from 127.0.0.1:56377 #55 (6 connections now open)
+Thu Jan  2 17:12:30.467 [conn54] end connection 127.0.0.1:56375 (5 connections now open)
+Thu Jan  2 17:12:30.467 [initandlisten] connection accepted from 127.0.0.1:56382 #56 (6 connections now open)
+Thu Jan  2 17:12:40.628 [conn55] end connection 127.0.0.1:56377 (5 connections now open)
+Thu Jan  2 17:12:40.628 [initandlisten] connection accepted from 127.0.0.1:56383 #57 (6 connections now open)
+Thu Jan  2 17:13:00.485 [conn56] end connection 127.0.0.1:56382 (5 connections now open)
+Thu Jan  2 17:13:00.485 [initandlisten] connection accepted from 127.0.0.1:56389 #58 (6 connections now open)
+Thu Jan  2 17:13:10.646 [conn57] end connection 127.0.0.1:56383 (5 connections now open)
+Thu Jan  2 17:13:10.646 [initandlisten] connection accepted from 127.0.0.1:56390 #59 (7 connections now open)
+Thu Jan  2 17:13:30.504 [conn58] end connection 127.0.0.1:56389 (5 connections now open)
+Thu Jan  2 17:13:30.505 [initandlisten] connection accepted from 127.0.0.1:56395 #60 (6 connections now open)
+Thu Jan  2 17:13:40.666 [conn59] end connection 127.0.0.1:56390 (5 connections now open)
+Thu Jan  2 17:13:40.667 [initandlisten] connection accepted from 127.0.0.1:56396 #61 (6 connections now open)
+Thu Jan  2 17:14:00.526 [conn60] end connection 127.0.0.1:56395 (5 connections now open)
+Thu Jan  2 17:14:00.526 [initandlisten] connection accepted from 127.0.0.1:56401 #62 (6 connections now open)
+Thu Jan  2 17:14:10.686 [conn61] end connection 127.0.0.1:56396 (5 connections now open)
+Thu Jan  2 17:14:10.686 [initandlisten] connection accepted from 127.0.0.1:56406 #63 (6 connections now open)
+Thu Jan  2 17:14:30.546 [conn62] end connection 127.0.0.1:56401 (5 connections now open)
+Thu Jan  2 17:14:30.547 [initandlisten] connection accepted from 127.0.0.1:56414 #64 (6 connections now open)
+Thu Jan  2 17:14:40.704 [conn63] end connection 127.0.0.1:56406 (5 connections now open)
+Thu Jan  2 17:14:40.704 [initandlisten] connection accepted from 127.0.0.1:56416 #65 (7 connections now open)
+Thu Jan  2 17:15:00.566 [conn64] end connection 127.0.0.1:56414 (5 connections now open)
+Thu Jan  2 17:15:00.567 [initandlisten] connection accepted from 127.0.0.1:56421 #66 (7 connections now open)
