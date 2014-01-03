@@ -249,3 +249,70 @@ Thu Jan  2 17:14:44.398 [conn48] end connection 127.0.0.1:56410 (1 connection no
 Thu Jan  2 17:14:44.398 [initandlisten] connection accepted from 127.0.0.1:56417 #50 (2 connections now open)
 Thu Jan  2 17:14:44.555 [conn49] end connection 127.0.0.1:56411 (1 connection now open)
 Thu Jan  2 17:14:44.555 [initandlisten] connection accepted from 127.0.0.1:56418 #51 (2 connections now open)
+Thu Jan  2 17:15:14.419 [conn50] end connection 127.0.0.1:56417 (1 connection now open)
+Thu Jan  2 17:15:14.419 [initandlisten] connection accepted from 127.0.0.1:56423 #52 (3 connections now open)
+Thu Jan  2 17:15:14.576 [conn51] end connection 127.0.0.1:56418 (1 connection now open)
+Thu Jan  2 17:15:14.576 [initandlisten] connection accepted from 127.0.0.1:56424 #53 (2 connections now open)
+Thu Jan  2 17:15:44.440 [conn52] end connection 127.0.0.1:56423 (1 connection now open)
+Thu Jan  2 17:15:44.440 [initandlisten] connection accepted from 127.0.0.1:56433 #54 (2 connections now open)
+Thu Jan  2 17:15:44.598 [conn53] end connection 127.0.0.1:56424 (1 connection now open)
+Thu Jan  2 17:15:44.598 [initandlisten] connection accepted from 127.0.0.1:56434 #55 (2 connections now open)
+Thu Jan  2 17:16:14.460 [conn54] end connection 127.0.0.1:56433 (1 connection now open)
+Thu Jan  2 17:16:14.461 [initandlisten] connection accepted from 127.0.0.1:56440 #56 (2 connections now open)
+Thu Jan  2 17:16:14.618 [conn55] end connection 127.0.0.1:56434 (1 connection now open)
+Thu Jan  2 17:16:14.618 [initandlisten] connection accepted from 127.0.0.1:56441 #57 (3 connections now open)
+Thu Jan  2 17:16:44.480 [conn56] end connection 127.0.0.1:56440 (1 connection now open)
+Thu Jan  2 17:16:44.480 [initandlisten] connection accepted from 127.0.0.1:56448 #58 (2 connections now open)
+Thu Jan  2 17:16:44.635 [conn57] end connection 127.0.0.1:56441 (1 connection now open)
+Thu Jan  2 17:16:44.635 [initandlisten] connection accepted from 127.0.0.1:56449 #59 (2 connections now open)
+Thu Jan  2 17:17:14.498 [conn58] end connection 127.0.0.1:56448 (1 connection now open)
+Thu Jan  2 17:17:14.498 [initandlisten] connection accepted from 127.0.0.1:56479 #60 (3 connections now open)
+Thu Jan  2 17:17:14.655 [conn59] end connection 127.0.0.1:56449 (1 connection now open)
+Thu Jan  2 17:17:14.655 [initandlisten] connection accepted from 127.0.0.1:56480 #61 (2 connections now open)
+Thu Jan  2 17:17:44.517 [conn60] end connection 127.0.0.1:56479 (1 connection now open)
+Thu Jan  2 17:17:44.517 [initandlisten] connection accepted from 127.0.0.1:56490 #62 (3 connections now open)
+Thu Jan  2 17:17:44.673 [conn61] end connection 127.0.0.1:56480 (1 connection now open)
+Thu Jan  2 17:17:44.673 [initandlisten] connection accepted from 127.0.0.1:56491 #63 (3 connections now open)
+Thu Jan  2 17:18:14.535 [conn62] end connection 127.0.0.1:56490 (1 connection now open)
+Thu Jan  2 17:18:14.535 [initandlisten] connection accepted from 127.0.0.1:56500 #64 (2 connections now open)
+Thu Jan  2 17:18:14.692 [conn63] end connection 127.0.0.1:56491 (1 connection now open)
+Thu Jan  2 17:18:14.692 [initandlisten] connection accepted from 127.0.0.1:56501 #65 (3 connections now open)
+Thu Jan  2 17:18:44.555 [conn64] end connection 127.0.0.1:56500 (1 connection now open)
+Thu Jan  2 17:18:44.555 [initandlisten] connection accepted from 127.0.0.1:56510 #66 (2 connections now open)
+Thu Jan  2 17:18:44.712 [conn65] end connection 127.0.0.1:56501 (1 connection now open)
+Thu Jan  2 17:18:44.712 [initandlisten] connection accepted from 127.0.0.1:56511 #67 (2 connections now open)
+Thu Jan  2 17:19:14.576 [conn66] end connection 127.0.0.1:56510 (1 connection now open)
+Thu Jan  2 17:19:14.577 [initandlisten] connection accepted from 127.0.0.1:56516 #68 (2 connections now open)
+Thu Jan  2 17:19:14.731 [conn67] end connection 127.0.0.1:56511 (1 connection now open)
+Thu Jan  2 17:19:14.731 [initandlisten] connection accepted from 127.0.0.1:56517 #69 (3 connections now open)
+Thu Jan  2 17:19:44.596 [conn68] end connection 127.0.0.1:56516 (1 connection now open)
+Thu Jan  2 17:19:44.596 [initandlisten] connection accepted from 127.0.0.1:56522 #70 (2 connections now open)
+Thu Jan  2 17:19:44.749 [conn69] end connection 127.0.0.1:56517 (1 connection now open)
+Thu Jan  2 17:19:44.749 [initandlisten] connection accepted from 127.0.0.1:56523 #71 (3 connections now open)
+Thu Jan  2 17:20:14.617 [conn70] end connection 127.0.0.1:56522 (1 connection now open)
+Thu Jan  2 17:20:14.617 [initandlisten] connection accepted from 127.0.0.1:56528 #72 (3 connections now open)
+Thu Jan  2 17:20:14.769 [conn71] end connection 127.0.0.1:56523 (1 connection now open)
+Thu Jan  2 17:20:14.769 [initandlisten] connection accepted from 127.0.0.1:56529 #73 (3 connections now open)
+Thu Jan  2 17:20:15.552 [conn72] end connection 127.0.0.1:56528 (1 connection now open)
+Thu Jan  2 17:20:15.554 [rsBackgroundSync] replSet sync source problem: 10278 dbclient error communicating with server: localhost:27017
+Thu Jan  2 17:20:15.554 [rsBackgroundSync] replSet syncing to: localhost:27017
+Thu Jan  2 17:20:15.554 [rsBackgroundSync] repl: couldn't connect to server localhost:27017
+Thu Jan  2 17:20:15.554 [rsBackgroundSync] replSet not trying to sync from localhost:27017, it is vetoed for 10 more seconds
+Thu Jan  2 17:20:15.554 [rsBackgroundSync] replSet not trying to sync from localhost:27017, it is vetoed for 10 more seconds
+Thu Jan  2 17:20:16.921 [rsHealthPoll] DBClientCursor::init call() failed
+Thu Jan  2 17:20:16.922 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+Thu Jan  2 17:20:16.922 [rsHealthPoll] replSet info localhost:27017 is down (or slow to respond): 
+Thu Jan  2 17:20:16.922 [rsHealthPoll] replSet member localhost:27017 is now in state DOWN
+Thu Jan  2 17:20:16.976 [rsMgr] replSet info electSelf 2
+Thu Jan  2 17:20:17.556 [rsMgr] replSet PRIMARY
+Thu Jan  2 17:20:18.924 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
+Thu Jan  2 17:20:19.508 [conn73] end connection 127.0.0.1:56529 (0 connections now open)
+Thu Jan  2 17:20:20.923 [rsHealthPoll] DBClientCursor::init call() failed
+Thu Jan  2 17:20:20.923 [rsHealthPoll] replset info localhost:27018 heartbeat failed, retrying
+Thu Jan  2 17:20:20.924 [rsHealthPoll] replSet info localhost:27018 is down (or slow to respond): 
+Thu Jan  2 17:20:20.924 [rsHealthPoll] replSet member localhost:27018 is now in state DOWN
+Thu Jan  2 17:20:20.924 [rsMgr] can't see a majority of the set, relinquishing primary
+Thu Jan  2 17:20:20.924 [rsMgr] replSet relinquishing primary state
+Thu Jan  2 17:20:20.924 [rsMgr] replSet SECONDARY
+Thu Jan  2 17:20:20.924 [rsMgr] replSet closing client sockets after relinquishing primary
+Thu Jan  2 17:20:20.924 [rsHealthPoll] replset info localhost:27017 heartbeat failed, retrying
