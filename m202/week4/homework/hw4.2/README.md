@@ -8,32 +8,31 @@ Note: If you have any documents in the testDB.testColl collection when you test 
 
 # Answer
 
-- Start mongod
-mkdir 1 2 3
-sudo ./init_instances.sh
+- Start mongod:
+	- mkdir 1 2 3
+	- sudo ./init_instances.sh
 
 - Config replicaSet:
-	. mongo --port 27017 < init_config.js
-	. On the mongo shell add an arbiter: rs.addArb("localhost:27019")
-- Access the db, insert some document, and check that the replicaSet is working
-use testDB
-// test
-db.testDB.testColl.insert({"a":"a"})
-db.testDB.testColl.remove({"a":"a"})
+	-  mongo --port 27017 < init_config.js
+	- On the mongo shell add an arbiter: rs.addArb("localhost:27019")
+- Access the db, insert some document, and check that the replicaSet is working:
+	- use testDB
+	- db.testDB.testColl.insert({"a":"a"})
+	- db.testDB.testColl.remove({"a":"a"})
 
 - Index on the secondary only
-	. Stop secondary mongod on port 27018:
+	- Stop secondary mongod on port 27018:
 		- ps -A | grep mongod 
 		- sudo kill pid (on port 27018)
-	. Start secondary without --replSet 202 and add the index to the collection
+	- Start secondary without --replSet 202 and add the index to the collection
 		- mongod --logpath "2.log" --dbpath 2 --port 27018 --smallfiles --oplogSize 64 --fork
 		- mongo --port 27018
 		- use testDB
 		- db.testColl.ensureIndex({"a" : 1})
 		- db.system.indexes.find() to check the new index
-	. Stop the standalone mongod on port 27018:
+	- Stop the standalone mongod on port 27018:
 		- ps -A | grep 
 		- sudo kill pid (on port 27018)
-	. Start the secondary with the --repSet m202
+	- Start the secondary with the --repSet m202
 		- mongod --replSet m202 --logpath "2.log" --dbpath 2 --port 27018 --smallfiles --oplogSize 64 --fork
-	. Use MongoProc to check the results. Ensure that mongoproc config is using the port 27017
+	- Use MongoProc to check the results. Ensure that mongoproc config is using the port 27017

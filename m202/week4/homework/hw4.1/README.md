@@ -11,14 +11,13 @@ Note: For consistency with the lesson video, please assume that 10,000 connectio
 # Answer
 
 - Data:
-. sharded cluster, each shard x 3 node replica set (mongodb 2.6)
-. 10 gb of RAM
-. 10,000 connections consume 10GB of RAM.
-. numMongos = 64 mongos
-. numOther = 6 other possible connections to a primary
+	- sharded cluster, each shard x 3 node replica set (mongodb 2.6)
+	- 10 gb of RAM
+	- 10,000 connections consume 10GB of RAM.
+	- numMongos = 64 mongos
+	- numOther = 6 other possible connections to a primary
 
 - Formula:
-
-MaxConns = (maxPrimaryConnections - (numSecondaries x 3) - (numOther x 3)) / numMongos 
-		 = (10000 - (2 x 3) - (6 x 3)) / 64 = 
+	- MaxConns = (maxPrimaryConnections - (numSecondaries x 3) - (numOther x 3)) / numMongos 
+		 = (10000 - (2 x 3) - (6 x 3)) / 64
 		 = 155,875 -> 100 % , So 90% = 140.2875 ~ 140.
