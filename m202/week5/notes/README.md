@@ -1,4 +1,4 @@
-# Week5 Charded Cluster Management
+# Week5 Sharded Cluster Management Part 1
 
 Config Servers
 ================
