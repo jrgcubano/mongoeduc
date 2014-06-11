@@ -22,7 +22,7 @@ Without turning on your balancer, adding/removing documents, or otherwise modify
 
 In order to see the problem, look for the document with _id: 90001. Each shard will have its own copy, and the mongos will look for it on the wrong shard. When you get a new value for the "string" field (one that doesn't end with lots of 0's), you've completed the problem.
 
-# Answer
+# Solution
 - mongo --nodb in a shell
 - cluster = new ShardingTest({shards: 2, chunksize: 1, rs : {nodes : [{}, {}, {arbiter: true}]} })
 - init collection with MongoProc initialize

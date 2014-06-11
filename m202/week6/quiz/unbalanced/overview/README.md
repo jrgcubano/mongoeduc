@@ -4,10 +4,9 @@ Consider the diagram below depicting the distribution of chunks across a sharded
 
 Diagram with the chunks in each shard:
 
-SHARD1: 32 - 32 - 32
-SHARD2: 16 - 16 - 16 - 16 - 16 - 16 - 16 - 16
-SHARD3: 64 - 64
-
+- SHARD1: 32 - 32 - 32
+- SHARD2: 16 - 16 - 16 - 16 - 16 - 16 - 16 - 16
+- SHARD3: 64 - 64
 
 
 The shards are balanced. There will not be a balancing round until more chunks are created.
