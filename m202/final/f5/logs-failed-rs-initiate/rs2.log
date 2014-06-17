@@ -1,0 +1,269 @@
+2014-06-06T18:15:09.216+0100 [initandlisten] MongoDB starting : pid=22186 port=27018 dbpath=/data/db/rs2 64-bit host=m202-ubuntu
+2014-06-06T18:15:09.216+0100 [initandlisten] db version v2.6.1
+2014-06-06T18:15:09.216+0100 [initandlisten] git version: 4b95b086d2374bdcfcdf2249272fb552c9c726e8
+2014-06-06T18:15:09.216+0100 [initandlisten] build info: Linux build14.nj1.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2014-06-06T18:15:09.216+0100 [initandlisten] allocator: tcmalloc
+2014-06-06T18:15:09.216+0100 [initandlisten] options: { config: "rs2.conf", net: { port: 27018 }, processManagement: { fork: true }, replication: { oplogSizeMB: 512, replSetName: "m202-final" }, storage: { dbPath: "/data/db/rs2" }, systemLog: { destination: "file", path: "/data/db/rs2.log" } }
+2014-06-06T18:15:09.220+0100 [initandlisten] journal dir=/data/db/rs2/journal
+2014-06-06T18:15:09.220+0100 [initandlisten] recover : no journal files present, no recovery needed
+2014-06-06T18:15:09.434+0100 [FileAllocator] allocating new datafile /data/db/rs2/local.ns, filling with zeroes...
+2014-06-06T18:15:09.435+0100 [FileAllocator] creating directory /data/db/rs2/_tmp
+2014-06-06T18:15:09.439+0100 [FileAllocator] done allocating datafile /data/db/rs2/local.ns, size: 16MB,  took 0.002 secs
+2014-06-06T18:15:09.440+0100 [FileAllocator] allocating new datafile /data/db/rs2/local.0, filling with zeroes...
+2014-06-06T18:15:09.443+0100 [FileAllocator] done allocating datafile /data/db/rs2/local.0, size: 64MB,  took 0.002 secs
+2014-06-06T18:15:09.444+0100 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2014-06-06T18:15:09.444+0100 [initandlisten] 	 added index to empty collection
+2014-06-06T18:15:09.444+0100 [initandlisten] waiting for connections on port 27018
+2014-06-06T18:15:09.445+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:09.445+0100 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+2014-06-06T18:15:10.447+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:11.448+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:12.448+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:13.448+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:14.449+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:15.449+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:16.450+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:17.450+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:18.451+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:19.452+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:20.453+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:21.453+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:22.454+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:23.454+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:24.454+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:25.455+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:26.455+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:27.455+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-06T18:15:28.224+0100 [initandlisten] connection accepted from 127.0.0.1:40945 #1 (1 connection now open)
+2014-06-06T18:15:28.456+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:28.457+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:28.457+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:29.458+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:29.460+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:29.460+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:30.460+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:30.463+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:30.463+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:31.464+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:31.469+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:31.469+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:32.469+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:32.478+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:32.478+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:33.478+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:33.496+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:33.496+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:34.496+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:34.529+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:34.529+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:35.529+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:35.595+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:35.595+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:36.596+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:36.726+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:36.726+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:37.726+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:37.984+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:37.984+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:38.985+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:39.498+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:39.498+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:40.500+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:41.501+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:41.501+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:42.501+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:43.502+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:43.502+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:44.502+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:45.503+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:45.503+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:46.505+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:47.506+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:47.506+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:48.508+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:49.510+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:49.510+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:50.511+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:51.512+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:51.512+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:52.512+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:53.513+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:53.513+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:54.513+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:55.514+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:55.514+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:56.235+0100 [conn1] end connection 127.0.0.1:40945 (0 connections now open)
+2014-06-06T18:15:56.236+0100 [initandlisten] connection accepted from 127.0.0.1:40965 #2 (1 connection now open)
+2014-06-06T18:15:56.515+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:57.517+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:57.517+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:15:58.518+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:15:59.520+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:15:59.520+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:16:00.522+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:16:01.523+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:16:01.523+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:16:02.525+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:16:03.527+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:16:03.527+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:16:04.529+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:16:05.530+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:16:05.530+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:16:06.530+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:16:07.531+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:16:07.531+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:16:08.531+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:16:09.442+0100 [clientcursormon] mem (MB) res:31 virt:619
+2014-06-06T18:16:09.442+0100 [clientcursormon]  mapped (incl journal view):160
+2014-06-06T18:16:09.442+0100 [clientcursormon]  connections:1
+2014-06-06T18:16:09.533+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:16:09.534+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:16:10.535+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:16:11.538+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:16:11.538+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:16:12.539+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:16:13.540+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:16:13.540+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:16:14.541+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:16:15.542+0100 [rsStart] DBClientCursor::init call() failed
+2014-06-06T18:16:15.542+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (yet)
+2014-06-06T18:16:16.542+0100 [rsStart] trying to contact m202-ubuntu:27017
+2014-06-06T18:16:17.544+0100 [rsStart] replSet I am m202-ubuntu:27018
+2014-06-06T18:16:17.544+0100 [rsStart] replSet got config version 2 from a remote, saving locally
+2014-06-06T18:16:17.544+0100 [rsStart] replSet info saving a newer config version to local.system.replset: { _id: "m202-final", version: 2, members: [ { _id: 0, host: "m202-ubuntu:27017" }, { _id: 1, host: "m202-ubuntu:27018" } ] }
+2014-06-06T18:16:17.544+0100 [rsStart] build index on: local.system.replset properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.system.replset" }
+2014-06-06T18:16:17.544+0100 [rsStart] 	 added index to empty collection
+2014-06-06T18:16:17.545+0100 [rsStart] replSet saveConfigLocally done
+2014-06-06T18:16:17.547+0100 [rsStart] build index on: local.me properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.me" }
+2014-06-06T18:16:17.547+0100 [rsStart] 	 added index to empty collection
+2014-06-06T18:16:17.547+0100 [rsStart] replSet STARTUP2
+2014-06-06T18:16:17.547+0100 [rsSync] ******
+2014-06-06T18:16:17.547+0100 [rsSync] creating replication oplog of size: 512MB...
+2014-06-06T18:16:17.547+0100 [FileAllocator] allocating new datafile /data/db/rs2/local.1, filling with zeroes...
+2014-06-06T18:16:17.549+0100 [rsMgr] replSet total number of votes is even - add arbiter or give one member an extra vote
+2014-06-06T18:16:17.549+0100 [rsHealthPoll] replSet member m202-ubuntu:27017 is up
+2014-06-06T18:16:17.549+0100 [rsHealthPoll] replSet member m202-ubuntu:27017 is now in state PRIMARY
+2014-06-06T18:16:17.552+0100 [FileAllocator] done allocating datafile /data/db/rs2/local.1, size: 1024MB,  took 0.004 secs
+2014-06-06T18:16:17.554+0100 [rsSync] ******
+2014-06-06T18:16:17.554+0100 [rsSync] replSet initial sync pending
+2014-06-06T18:16:17.554+0100 [rsSync] replSet initial sync need a member to be primary or secondary to do our initial sync
+2014-06-06T18:16:26.246+0100 [conn2] end connection 127.0.0.1:40965 (0 connections now open)
+2014-06-06T18:16:26.246+0100 [initandlisten] connection accepted from 127.0.0.1:40978 #3 (1 connection now open)
+2014-06-06T18:16:33.554+0100 [rsSync] replSet initial sync pending
+2014-06-06T18:16:33.554+0100 [rsSync] replSet syncing to: m202-ubuntu:27017
+2014-06-06T18:16:33.555+0100 [rsSync] build index on: local.replset.minvalid properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.replset.minvalid" }
+2014-06-06T18:16:33.555+0100 [rsSync] 	 added index to empty collection
+2014-06-06T18:16:33.555+0100 [rsSync] replSet initial sync drop all databases
+2014-06-06T18:16:33.556+0100 [rsSync] dropAllDatabasesExceptLocal 1
+2014-06-06T18:16:33.556+0100 [rsSync] replSet initial sync clone all databases
+2014-06-06T18:16:33.556+0100 [rsSync] replSet initial sync cloning db: admin
+2014-06-06T18:16:33.556+0100 [rsSync] replSet initial sync data copy, starting syncup
+2014-06-06T18:16:33.556+0100 [rsSync] oplog sync 1 of 3
+2014-06-06T18:16:33.556+0100 [rsSync] oplog sync 2 of 3
+2014-06-06T18:16:33.556+0100 [rsSync] replSet initial sync building indexes
+2014-06-06T18:16:33.556+0100 [rsSync] replSet initial sync cloning indexes for : admin
+2014-06-06T18:16:33.557+0100 [rsSync] oplog sync 3 of 3
+2014-06-06T18:16:33.557+0100 [rsSync] replSet initial sync finishing up
+2014-06-06T18:16:33.559+0100 [rsSync] replSet set minValid=5391f730:1
+2014-06-06T18:16:33.561+0100 [rsSync] replSet RECOVERING
+2014-06-06T18:16:33.561+0100 [rsSync] replSet initial sync done
+2014-06-06T18:16:34.553+0100 [rsBackgroundSync] replSet syncing to: m202-ubuntu:27017
+2014-06-06T18:16:34.553+0100 [rsBackgroundSync] replset setting syncSourceFeedback to m202-ubuntu:27017
+2014-06-06T18:16:34.562+0100 [rsSync] replSet SECONDARY
+2014-06-06T18:16:56.255+0100 [conn3] end connection 127.0.0.1:40978 (0 connections now open)
+2014-06-06T18:16:56.255+0100 [initandlisten] connection accepted from 127.0.0.1:40984 #4 (1 connection now open)
+2014-06-06T18:17:09.452+0100 [clientcursormon] mem (MB) res:31 virt:2715
+2014-06-06T18:17:09.452+0100 [clientcursormon]  mapped (incl journal view):2208
+2014-06-06T18:17:09.452+0100 [clientcursormon]  connections:1
+2014-06-06T18:17:09.452+0100 [clientcursormon]  replication threads:32
+2014-06-06T18:17:26.270+0100 [conn4] end connection 127.0.0.1:40984 (0 connections now open)
+2014-06-06T18:17:26.270+0100 [initandlisten] connection accepted from 127.0.0.1:40986 #5 (1 connection now open)
+2014-06-06T18:17:32.225+0100 [rsBackgroundSync] replSet sync source problem: 10278 dbclient error communicating with server: m202-ubuntu:27017
+2014-06-06T18:17:32.225+0100 [rsBackgroundSync] replSet syncing to: m202-ubuntu:27017
+2014-06-06T18:17:32.229+0100 [rsBackgroundSync] Socket recv() errno:104 Connection reset by peer 127.0.1.1:27017
+2014-06-06T18:17:32.229+0100 [rsBackgroundSync] SocketException: remote: 127.0.1.1:27017 error: 9001 socket exception [RECV_ERROR] server [127.0.1.1:27017] 
+2014-06-06T18:17:32.229+0100 [rsBackgroundSync] DBClientCursor::init call() failed
+2014-06-06T18:17:32.229+0100 [rsBackgroundSync] replSet sync source problem: 10276 DBClientBase::findN: transport error: m202-ubuntu:27017 ns: local.oplog.rs query: {}
+2014-06-06T18:17:32.229+0100 [rsBackgroundSync] replSet syncing to: m202-ubuntu:27017
+2014-06-06T18:17:32.231+0100 [conn5] end connection 127.0.0.1:40986 (0 connections now open)
+2014-06-06T18:17:32.232+0100 [rsBackgroundSync] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:32.232+0100 [rsBackgroundSync] repl: couldn't connect to server m202-ubuntu:27017 (127.0.1.1), connection attempt failed
+2014-06-06T18:17:33.578+0100 [rsHealthPoll] DBClientCursor::init call() failed
+2014-06-06T18:17:33.579+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-06T18:17:33.580+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:33.580+0100 [rsHealthPoll] replSet info m202-ubuntu:27017 is down (or slow to respond): 
+2014-06-06T18:17:33.580+0100 [rsHealthPoll] replSet member m202-ubuntu:27017 is now in state DOWN
+2014-06-06T18:17:33.580+0100 [rsMgr] replSet can't see a majority, will not try to elect self
+2014-06-06T18:17:35.583+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:35.583+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-06T18:17:35.588+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:37.597+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:37.597+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-06T18:17:37.614+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:39.647+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:39.647+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-06T18:17:39.712+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:41.842+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:41.842+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-06T18:17:42.100+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:44.452+0100 [initandlisten] connection accepted from 127.0.0.1:49629 #6 (1 connection now open)
+2014-06-06T18:17:44.615+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:44.616+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-06T18:17:45.616+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:47.617+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:47.617+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1), connection attempt failed
+2014-06-06T18:17:47.618+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:47.618+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:47.619+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:47.619+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-06T18:17:47.619+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:47.619+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:47.619+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:47.619+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:47.622+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:47.622+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:47.622+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:49.622+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:49.622+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:49.623+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:49.623+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:49.627+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:49.627+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-06T18:17:49.627+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:49.627+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:49.627+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:49.627+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:49.636+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:49.636+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:49.636+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:51.215+0100 [conn6] assertion 13435 not master and slaveOk=false ns:admin.system.namespaces query:{}
+2014-06-06T18:17:51.637+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:51.637+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:51.637+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:51.637+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:51.654+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:51.654+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-06T18:17:51.655+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:51.655+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:51.656+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:51.656+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:51.689+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:51.689+0100 [rsHealthPoll] warning: Failed to connect to 127.0.1.1:27017, reason: errno:111 Connection refused
+2014-06-06T18:17:51.689+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (127.0.1.1) failed, connection attempt failed
+2014-06-06T18:17:52.399+0100 [conn6] terminating, shutdown command received
+2014-06-06T18:17:52.399+0100 [conn6] dbexit: shutdown called
+2014-06-06T18:17:52.399+0100 [conn6] shutdown: going to close listening sockets...
+2014-06-06T18:17:52.399+0100 [conn6] closing listening socket: 8
+2014-06-06T18:17:52.399+0100 [conn6] closing listening socket: 9
+2014-06-06T18:17:52.399+0100 [conn6] removing socket file: /tmp/mongodb-27018.sock
+2014-06-06T18:17:52.399+0100 [conn6] shutdown: going to flush diaglog...
+2014-06-06T18:17:52.399+0100 [conn6] shutdown: going to close sockets...
+2014-06-06T18:17:52.400+0100 [conn6] shutdown: waiting for fs preallocator...
+2014-06-06T18:17:52.400+0100 [conn6] shutdown: lock for final commit...
+2014-06-06T18:17:52.400+0100 [conn6] shutdown: final commit...
+2014-06-06T18:17:52.404+0100 [conn6] shutdown: closing all files...
+2014-06-06T18:17:52.405+0100 [conn6] closeAllFiles() finished
+2014-06-06T18:17:52.405+0100 [conn6] journalCleanup...
+2014-06-06T18:17:52.405+0100 [conn6] removeJournalFiles
+2014-06-06T18:17:52.407+0100 [conn6] shutdown: removing fs lock...
+2014-06-06T18:17:52.407+0100 [conn6] dbexit: really exiting now

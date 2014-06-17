@@ -6,6 +6,9 @@ Once you've triggered the rollback scenario, please submit your work using Mongo
 
 Adam wrote a tutorial blog post (http://comerford.cc/wordpress/2012/05/28/simulating-rollback-on-mongodb/) on simulating rollback. It might be a little outdated, but provides a detailed discussion of this topic and is worth the read.
 
+# Notes
+Take special note of the mention to make sure you start your mongod instances up using absolute paths /path/to/datafolder instead of relative paths datafolder or mongoProc will not be able to validate your work.
+
 # Answer
 - Start mongod:
 	- mkdir -p /data/db/rs202/rs1 /data/db/rs202/rs2 /data/db/rs202/rs3

@@ -13,3 +13,13 @@ An election will occur when the partition ends.
 (OK) The two secondaries will hold an election when the partition occurs.
 (OK) The application will still be able to write while the partition is up.
 Only reads will be possible while the partition is up.
+
+options = {
+    nodes: 5,
+    startPort: 27017,
+    nodeOptions: {
+        smallfiles: "",
+        noprealloc: "",
+        nopreallocj: ""
+    }
+};

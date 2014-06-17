@@ -3,7 +3,8 @@
 Notes:
 =====
 
-# Maintenance:
+Maintenance:
+------------
 
 - Example: (Replica set with 1 P, 2 S.) 
 	- In case of a Secondary: Shut it down, start mannually the "mongod" process without --replSet on a different port. Do some maintenance and rejoin the replicaSet again using the original --replSet and the original port.

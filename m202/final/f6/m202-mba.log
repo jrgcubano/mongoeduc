@@ -1,0 +1,822 @@
+2014-06-07T18:50:20.834+0100 [initandlisten] MongoDB starting : pid=24057 port=27017 dbpath=/data/db/rs2 64-bit host=mba
+2014-06-07T18:50:20.834+0100 [initandlisten] db version v2.6.1
+2014-06-07T18:50:20.834+0100 [initandlisten] git version: 4b95b086d2374bdcfcdf2249272fb552c9c726e8
+2014-06-07T18:50:20.834+0100 [initandlisten] build info: Linux build14.nj1.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2014-06-07T18:50:20.834+0100 [initandlisten] allocator: tcmalloc
+2014-06-07T18:50:20.834+0100 [initandlisten] options: { config: "m202-sec.conf", net: { bindIp: "127.0.0.1", port: 27017 }, processManagement: { fork: true }, replication: { oplogSizeMB: 512, replSetName: "m202-final" }, storage: { dbPath: "/data/db/rs2" }, systemLog: { destination: "file", logAppend: true, path: "/data/db/m202-mba.log" } }
+2014-06-07T18:50:20.861+0100 [initandlisten] journal dir=/data/db/rs2/journal
+2014-06-07T18:50:20.861+0100 [initandlisten] recover : no journal files present, no recovery needed
+2014-06-07T18:50:24.279+0100 [initandlisten] preallocateIsFaster check took 3.418 secs
+2014-06-07T18:50:24.333+0100 [FileAllocator] allocating new datafile /data/db/rs2/local.ns, filling with zeroes...
+2014-06-07T18:50:24.333+0100 [FileAllocator] creating directory /data/db/rs2/_tmp
+2014-06-07T18:50:24.363+0100 [FileAllocator] done allocating datafile /data/db/rs2/local.ns, size: 16MB,  took 0.023 secs
+2014-06-07T18:50:24.365+0100 [FileAllocator] allocating new datafile /data/db/rs2/local.0, filling with zeroes...
+2014-06-07T18:50:24.371+0100 [FileAllocator] done allocating datafile /data/db/rs2/local.0, size: 64MB,  took 0.005 secs
+2014-06-07T18:50:24.373+0100 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2014-06-07T18:50:24.373+0100 [initandlisten] 	 added index to empty collection
+2014-06-07T18:50:24.374+0100 [initandlisten] waiting for connections on port 27017
+2014-06-07T18:50:24.376+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:24.376+0100 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+2014-06-07T18:50:25.376+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:26.376+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:27.377+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:28.377+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:29.377+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:30.377+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:31.378+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:32.378+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:33.378+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:34.378+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:35.378+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:36.379+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:37.379+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:38.379+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:39.379+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:40.380+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:41.380+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:42.380+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:43.380+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:44.380+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:45.381+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:46.381+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:47.381+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:48.381+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:49.382+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:50.382+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:51.382+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:52.382+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:53.382+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:54.383+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:55.383+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:56.383+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:57.383+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:58.384+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:50:59.384+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:00.384+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:01.384+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:02.384+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:03.385+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:04.385+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:05.385+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:06.385+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:07.386+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:08.386+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:09.386+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:10.386+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:11.386+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:12.387+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:13.387+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:14.387+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:15.387+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:16.388+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:17.388+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:18.388+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:19.388+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:20.388+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:21.389+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:22.389+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:23.389+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:24.334+0100 [clientcursormon] mem (MB) res:32 virt:612
+2014-06-07T18:51:24.334+0100 [clientcursormon]  mapped (incl journal view):160
+2014-06-07T18:51:24.334+0100 [clientcursormon]  connections:0
+2014-06-07T18:51:24.389+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:25.389+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:26.390+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:27.390+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:28.390+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:29.390+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:30.390+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:31.391+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:32.391+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:33.391+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:34.391+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:35.392+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:36.392+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:37.392+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:38.392+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:39.392+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:40.393+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:41.393+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:42.393+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:43.393+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:44.394+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:45.394+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:46.394+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:47.394+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:48.395+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:49.395+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:50.395+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:51.395+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:52.395+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:53.396+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:54.396+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:55.396+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:56.397+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:57.397+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:58.397+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:51:59.397+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:00.398+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:01.398+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:02.398+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:03.398+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:04.398+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:05.399+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:06.399+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:07.399+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:08.399+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:09.400+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:10.400+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:11.400+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:12.400+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:13.400+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:14.401+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:15.401+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:16.401+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:17.401+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:18.401+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:19.402+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:20.402+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:21.402+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:22.402+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:23.403+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:24.403+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:25.403+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:26.403+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:27.403+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:28.404+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:29.404+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:30.404+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:31.404+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:32.405+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:33.405+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:34.405+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:35.405+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:36.405+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:37.406+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:38.406+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:39.406+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:40.406+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:41.407+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:42.407+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:43.407+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:44.407+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:45.407+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:46.408+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:47.408+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:48.408+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:49.408+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:50.409+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:51.409+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:52.409+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:53.409+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:54.409+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:55.410+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:56.410+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:57.410+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:58.410+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:52:59.410+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:00.411+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:01.411+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:02.411+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:03.411+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:04.412+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:05.412+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:06.412+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:07.412+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:08.413+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:09.413+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:10.413+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:11.413+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:12.413+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:13.414+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:14.414+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:15.414+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:16.414+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:17.414+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:18.415+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:19.415+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:20.415+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:21.415+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:22.415+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:23.416+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:24.416+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:25.416+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:26.416+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:27.417+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:28.417+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:29.417+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:30.417+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:31.418+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:32.418+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:33.418+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:34.418+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:35.419+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:36.419+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:37.419+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:38.419+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:39.419+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:40.420+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:41.420+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:42.420+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:43.420+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:44.420+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:45.421+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:46.421+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:47.421+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:48.421+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:49.422+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:50.422+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:51.422+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:52.422+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:53.423+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:54.423+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:55.423+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:56.423+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:57.423+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:58.424+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:53:59.424+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:00.424+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:01.424+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:02.425+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:03.425+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:04.425+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:05.425+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:06.425+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:07.426+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:08.426+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:09.426+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:10.426+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:11.427+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:12.427+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:13.427+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:14.427+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:15.427+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:16.428+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:17.428+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:18.428+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:19.428+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:20.429+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:21.429+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:22.429+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:23.429+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:24.430+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:25.430+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:26.430+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:27.430+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:28.431+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:29.431+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:30.431+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:31.431+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:32.432+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:33.432+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:34.432+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:35.432+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:36.432+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:37.433+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:38.433+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:39.433+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:40.433+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:41.434+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:42.434+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:43.434+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:44.434+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:45.434+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:46.435+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:47.435+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:48.435+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:49.435+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:50.435+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:51.436+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:52.436+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:53.436+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:54.436+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:55.436+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:56.437+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:57.437+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:58.437+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:54:59.437+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:00.438+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:01.438+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:02.438+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:03.438+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:04.438+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:05.439+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:06.439+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:07.439+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:08.439+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:09.440+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:10.440+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:11.440+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:12.440+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:13.440+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:14.441+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:15.441+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:16.441+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:17.441+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:18.442+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:19.442+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:20.442+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:21.442+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:22.442+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:23.443+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:24.443+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:25.443+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:26.443+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:27.444+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:28.444+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:29.444+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:30.444+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:31.444+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:32.445+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:33.445+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:34.445+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:35.445+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:36.445+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:37.446+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:38.446+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:39.446+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:40.446+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:41.447+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:42.447+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:43.447+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:44.447+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:45.448+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:46.448+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:47.448+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:48.448+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:49.449+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:50.449+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:51.449+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:52.449+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:53.449+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:54.450+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:55.450+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:56.450+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:57.450+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:58.451+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:55:59.451+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:00.451+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:01.451+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:02.452+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:03.452+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:04.452+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:05.452+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:06.452+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:07.453+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:08.453+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:09.453+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:10.453+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:11.454+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:12.454+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:13.454+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:14.454+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:15.455+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:16.455+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:17.455+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:18.455+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:19.455+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:20.456+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:21.456+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:22.456+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:23.456+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:24.341+0100 [clientcursormon] mem (MB) res:33 virt:613
+2014-06-07T18:56:24.342+0100 [clientcursormon]  mapped (incl journal view):160
+2014-06-07T18:56:24.342+0100 [clientcursormon]  connections:0
+2014-06-07T18:56:24.457+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:25.457+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:26.457+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:27.457+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:28.457+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:29.458+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:30.458+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:31.458+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:32.458+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:33.459+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:34.459+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:35.459+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:36.459+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:37.459+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:38.460+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:39.460+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:40.460+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:40.686+0100 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2014-06-07T18:56:40.686+0100 [signalProcessingThread] now exiting
+2014-06-07T18:56:40.686+0100 [signalProcessingThread] dbexit: 
+2014-06-07T18:56:40.686+0100 [signalProcessingThread] shutdown: going to close listening sockets...
+2014-06-07T18:56:40.686+0100 [signalProcessingThread] closing listening socket: 8
+2014-06-07T18:56:40.686+0100 [signalProcessingThread] closing listening socket: 9
+2014-06-07T18:56:40.686+0100 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2014-06-07T18:56:40.686+0100 [signalProcessingThread] shutdown: going to flush diaglog...
+2014-06-07T18:56:40.686+0100 [signalProcessingThread] shutdown: going to close sockets...
+2014-06-07T18:56:40.687+0100 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2014-06-07T18:56:40.687+0100 [signalProcessingThread] shutdown: lock for final commit...
+2014-06-07T18:56:40.687+0100 [signalProcessingThread] shutdown: final commit...
+2014-06-07T18:56:40.687+0100 [signalProcessingThread] shutdown: closing all files...
+2014-06-07T18:56:40.687+0100 [signalProcessingThread] closeAllFiles() finished
+2014-06-07T18:56:40.687+0100 [signalProcessingThread] journalCleanup...
+2014-06-07T18:56:40.687+0100 [signalProcessingThread] removeJournalFiles
+2014-06-07T18:56:40.700+0100 [signalProcessingThread] shutdown: removing fs lock...
+2014-06-07T18:56:40.700+0100 [signalProcessingThread] dbexit: really exiting now
+2014-06-07T18:56:46.025+0100 ***** SERVER RESTARTED *****
+2014-06-07T18:56:46.029+0100 [initandlisten] MongoDB starting : pid=29658 port=27017 dbpath=/data/db/rs2 64-bit host=mba
+2014-06-07T18:56:46.029+0100 [initandlisten] db version v2.6.1
+2014-06-07T18:56:46.029+0100 [initandlisten] git version: 4b95b086d2374bdcfcdf2249272fb552c9c726e8
+2014-06-07T18:56:46.029+0100 [initandlisten] build info: Linux build14.nj1.10gen.cc 2.6.32-431.3.1.el6.x86_64 #1 SMP Fri Jan 3 21:39:27 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49
+2014-06-07T18:56:46.029+0100 [initandlisten] allocator: tcmalloc
+2014-06-07T18:56:46.029+0100 [initandlisten] options: { config: "m202-sec.conf", net: { bindIp: "192.0.2.2,127.0.0.1", port: 27017 }, processManagement: { fork: true }, replication: { oplogSizeMB: 512, replSetName: "m202-final" }, storage: { dbPath: "/data/db/rs2" }, systemLog: { destination: "file", logAppend: true, path: "/data/db/m202-mba.log" } }
+2014-06-07T18:56:46.068+0100 [initandlisten] journal dir=/data/db/rs2/journal
+2014-06-07T18:56:46.068+0100 [initandlisten] recover : no journal files present, no recovery needed
+2014-06-07T18:56:49.422+0100 [initandlisten] preallocateIsFaster check took 3.353 secs
+2014-06-07T18:56:49.484+0100 [initandlisten] waiting for connections on port 27017
+2014-06-07T18:56:49.496+0100 [rsStart] replSet can't get local.system.replset config from self or any seed (EMPTYCONFIG)
+2014-06-07T18:56:49.496+0100 [rsStart] replSet info you may need to run replSetInitiate -- rs.initiate() in the shell -- if that is not already done
+2014-06-07T18:56:49.890+0100 [initandlisten] connection accepted from 192.0.2.3:48727 #1 (1 connection now open)
+2014-06-07T18:56:49.906+0100 [conn1] end connection 192.0.2.3:48727 (0 connections now open)
+2014-06-07T18:56:49.907+0100 [initandlisten] connection accepted from 192.0.2.3:48728 #2 (1 connection now open)
+2014-06-07T18:56:49.951+0100 [initandlisten] connection accepted from 192.0.2.4:61526 #3 (2 connections now open)
+2014-06-07T18:56:49.952+0100 [conn3] end connection 192.0.2.4:61526 (1 connection now open)
+2014-06-07T18:56:49.952+0100 [initandlisten] connection accepted from 192.0.2.4:61527 #4 (2 connections now open)
+2014-06-07T18:56:50.496+0100 [rsStart] trying to contact m202-ubuntu:27018
+2014-06-07T18:56:50.501+0100 [rsStart] trying to contact mbp:27017
+2014-06-07T18:56:50.507+0100 [rsStart] replSet I am mba:27017
+2014-06-07T18:56:50.507+0100 [rsStart] replSet got config version 4 from a remote, saving locally
+2014-06-07T18:56:50.507+0100 [rsStart] replSet info saving a newer config version to local.system.replset: { _id: "m202-final", version: 4, members: [ { _id: 0, host: "m202-ubuntu:27017" }, { _id: 1, host: "m202-ubuntu:27018" }, { _id: 2, host: "mbp:27017" }, { _id: 3, host: "mba:27017" } ] }
+2014-06-07T18:56:50.508+0100 [rsStart] build index on: local.system.replset properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.system.replset" }
+2014-06-07T18:56:50.508+0100 [rsStart] 	 added index to empty collection
+2014-06-07T18:56:50.508+0100 [rsStart] replSet saveConfigLocally done
+2014-06-07T18:56:50.508+0100 [rsStart] build index on: local.me properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.me" }
+2014-06-07T18:56:50.508+0100 [rsStart] 	 added index to empty collection
+2014-06-07T18:56:50.508+0100 [rsStart] replSet STARTUP2
+2014-06-07T18:56:50.509+0100 [rsMgr] replSet total number of votes is even - add arbiter or give one member an extra vote
+2014-06-07T18:56:50.509+0100 [rsSync] ******
+2014-06-07T18:56:50.509+0100 [rsSync] creating replication oplog of size: 512MB...
+2014-06-07T18:56:50.509+0100 [FileAllocator] allocating new datafile /data/db/rs2/local.1, filling with zeroes...
+2014-06-07T18:56:50.509+0100 [FileAllocator] creating directory /data/db/rs2/_tmp
+2014-06-07T18:56:50.781+0100 [FileAllocator] done allocating datafile /data/db/rs2/local.1, size: 1024MB,  took 0.072 secs
+2014-06-07T18:56:50.834+0100 [rsSync] ******
+2014-06-07T18:56:50.834+0100 [rsSync] replSet initial sync pending
+2014-06-07T18:56:50.834+0100 [rsSync] replSet initial sync need a member to be primary or secondary to do our initial sync
+2014-06-07T18:56:50.883+0100 [initandlisten] connection accepted from 192.0.2.3:48729 #5 (3 connections now open)
+2014-06-07T18:56:50.899+0100 [conn5] end connection 192.0.2.3:48729 (2 connections now open)
+2014-06-07T18:56:50.900+0100 [initandlisten] connection accepted from 192.0.2.3:48730 #6 (3 connections now open)
+2014-06-07T18:56:52.507+0100 [rsHealthPoll] replSet member mbp:27017 is up
+2014-06-07T18:56:52.507+0100 [rsHealthPoll] replSet member mbp:27017 is now in state SECONDARY
+2014-06-07T18:56:52.508+0100 [rsHealthPoll] replSet member m202-ubuntu:27018 is up
+2014-06-07T18:56:52.508+0100 [rsHealthPoll] replSet member m202-ubuntu:27018 is now in state PRIMARY
+2014-06-07T18:56:52.509+0100 [rsHealthPoll] replSet member m202-ubuntu:27017 is up
+2014-06-07T18:56:52.509+0100 [rsHealthPoll] replSet member m202-ubuntu:27017 is now in state SECONDARY
+2014-06-07T18:56:52.902+0100 [conn6] end connection 192.0.2.3:48730 (2 connections now open)
+2014-06-07T18:56:52.903+0100 [initandlisten] connection accepted from 192.0.2.3:48731 #7 (3 connections now open)
+2014-06-07T18:56:57.958+0100 [conn4] end connection 192.0.2.4:61527 (2 connections now open)
+2014-06-07T18:56:57.958+0100 [initandlisten] connection accepted from 192.0.2.4:61529 #8 (3 connections now open)
+2014-06-07T18:57:06.834+0100 [rsSync] replSet initial sync pending
+2014-06-07T18:57:06.834+0100 [rsSync] replSet syncing to: m202-ubuntu:27017
+2014-06-07T18:57:06.836+0100 [rsSync] build index on: local.replset.minvalid properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.replset.minvalid" }
+2014-06-07T18:57:06.836+0100 [rsSync] 	 added index to empty collection
+2014-06-07T18:57:06.836+0100 [rsSync] replSet initial sync drop all databases
+2014-06-07T18:57:06.836+0100 [rsSync] dropAllDatabasesExceptLocal 1
+2014-06-07T18:57:06.836+0100 [rsSync] replSet initial sync clone all databases
+2014-06-07T18:57:06.837+0100 [rsSync] replSet initial sync cloning db: admin
+2014-06-07T18:57:06.838+0100 [rsSync] replSet initial sync data copy, starting syncup
+2014-06-07T18:57:06.838+0100 [rsSync] oplog sync 1 of 3
+2014-06-07T18:57:06.839+0100 [rsSync] oplog sync 2 of 3
+2014-06-07T18:57:06.839+0100 [rsSync] replSet initial sync building indexes
+2014-06-07T18:57:06.839+0100 [rsSync] replSet initial sync cloning indexes for : admin
+2014-06-07T18:57:06.840+0100 [rsSync] oplog sync 3 of 3
+2014-06-07T18:57:06.841+0100 [rsSync] replSet initial sync finishing up
+2014-06-07T18:57:06.924+0100 [rsSync] replSet set minValid=539350e7:1
+2014-06-07T18:57:06.925+0100 [rsSync] replSet RECOVERING
+2014-06-07T18:57:06.925+0100 [rsSync] replSet initial sync done
+2014-06-07T18:57:07.510+0100 [rsBackgroundSync] replSet syncing to: m202-ubuntu:27018
+2014-06-07T18:57:07.512+0100 [rsBackgroundSync] replset setting syncSourceFeedback to m202-ubuntu:27018
+2014-06-07T18:57:07.925+0100 [rsSync] replSet SECONDARY
+2014-06-07T18:57:15.932+0100 [conn2] end connection 192.0.2.3:48728 (2 connections now open)
+2014-06-07T18:57:15.932+0100 [initandlisten] connection accepted from 192.0.2.3:48736 #9 (3 connections now open)
+2014-06-07T18:57:22.932+0100 [conn7] end connection 192.0.2.3:48731 (2 connections now open)
+2014-06-07T18:57:22.933+0100 [initandlisten] connection accepted from 192.0.2.3:48737 #10 (3 connections now open)
+2014-06-07T18:57:27.979+0100 [conn8] end connection 192.0.2.4:61529 (2 connections now open)
+2014-06-07T18:57:27.980+0100 [initandlisten] connection accepted from 192.0.2.4:61536 #11 (3 connections now open)
+2014-06-07T18:57:45.966+0100 [conn9] end connection 192.0.2.3:48736 (2 connections now open)
+2014-06-07T18:57:45.966+0100 [initandlisten] connection accepted from 192.0.2.3:48742 #12 (3 connections now open)
+2014-06-07T18:57:49.485+0100 [clientcursormon] mem (MB) res:33 virt:2737
+2014-06-07T18:57:49.485+0100 [clientcursormon]  mapped (incl journal view):2208
+2014-06-07T18:57:49.485+0100 [clientcursormon]  connections:3
+2014-06-07T18:57:49.485+0100 [clientcursormon]  replication threads:32
+2014-06-07T18:57:52.963+0100 [conn10] end connection 192.0.2.3:48737 (2 connections now open)
+2014-06-07T18:57:52.964+0100 [initandlisten] connection accepted from 192.0.2.3:48743 #13 (3 connections now open)
+2014-06-07T18:57:57.998+0100 [conn11] end connection 192.0.2.4:61536 (2 connections now open)
+2014-06-07T18:57:57.998+0100 [initandlisten] connection accepted from 192.0.2.4:61549 #14 (3 connections now open)
+2014-06-07T18:57:58.691+0100 [rsBackgroundSync] replSet sync source problem: 10278 dbclient error communicating with server: m202-ubuntu:27018
+2014-06-07T18:57:58.691+0100 [rsBackgroundSync] replSet syncing to: m202-ubuntu:27018
+2014-06-07T18:57:58.692+0100 [rsBackgroundSync] Socket recv() errno:104 Connection reset by peer 192.0.2.3:27018
+2014-06-07T18:57:58.692+0100 [rsBackgroundSync] SocketException: remote: 192.0.2.3:27018 error: 9001 socket exception [RECV_ERROR] server [192.0.2.3:27018] 
+2014-06-07T18:57:58.692+0100 [rsBackgroundSync] DBClientCursor::init call() failed
+2014-06-07T18:57:58.692+0100 [rsBackgroundSync] replSet sync source problem: 10276 DBClientBase::findN: transport error: m202-ubuntu:27018 ns: local.oplog.rs query: {}
+2014-06-07T18:57:58.692+0100 [rsBackgroundSync] replSet syncing to: m202-ubuntu:27018
+2014-06-07T18:57:58.693+0100 [rsBackgroundSync] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:57:58.693+0100 [rsBackgroundSync] repl: couldn't connect to server m202-ubuntu:27018 (192.0.2.3), connection attempt failed
+2014-06-07T18:57:58.693+0100 [conn12] end connection 192.0.2.3:48742 (2 connections now open)
+2014-06-07T18:57:58.694+0100 [conn13] end connection 192.0.2.3:48743 (1 connection now open)
+2014-06-07T18:58:00.538+0100 [rsHealthPoll] DBClientCursor::init call() failed
+2014-06-07T18:58:00.538+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:00.538+0100 [rsHealthPoll] DBClientCursor::init call() failed
+2014-06-07T18:58:00.538+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:00.539+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:00.539+0100 [rsHealthPoll] replSet info m202-ubuntu:27018 is down (or slow to respond): 
+2014-06-07T18:58:00.539+0100 [rsHealthPoll] replSet member m202-ubuntu:27018 is now in state DOWN
+2014-06-07T18:58:00.539+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:00.542+0100 [MultiCommandJob] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:00.542+0100 [rsHealthPoll] replSet info m202-ubuntu:27017 is down (or slow to respond): 
+2014-06-07T18:58:00.542+0100 [rsMgr] not electing self, mbp:27017 would veto with 'mba:27017 is trying to elect itself but m202-ubuntu:27018 is already primary and more up-to-date'
+2014-06-07T18:58:00.542+0100 [rsHealthPoll] replSet member m202-ubuntu:27017 is now in state DOWN
+2014-06-07T18:58:00.542+0100 [rsMgr] replSet can't see a majority, will not try to elect self
+2014-06-07T18:58:02.542+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:02.542+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:02.547+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:02.547+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:02.547+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:02.556+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:04.556+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:04.556+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:04.572+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:04.573+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:04.573+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:04.605+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:06.574+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:06.574+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3), connection attempt failed
+2014-06-07T18:58:06.575+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:06.575+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:06.576+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:06.576+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:06.577+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:06.577+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:06.578+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:06.578+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:06.580+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:06.581+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:06.581+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:06.670+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:06.671+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:06.799+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:08.582+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:08.582+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:08.582+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:08.582+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:08.587+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:08.587+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:08.588+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:08.588+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:08.588+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:08.588+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:08.597+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:08.598+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:08.598+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:09.057+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:09.058+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:09.570+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:10.599+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:10.599+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:10.600+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:10.600+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:10.617+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:10.617+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:10.617+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:10.617+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:10.617+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:10.617+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:10.650+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:10.651+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:10.651+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:12.571+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:12.571+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:12.652+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:12.652+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:12.652+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:12.653+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:12.717+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:12.717+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:12.718+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:12.718+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:12.718+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:12.718+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:12.847+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:12.848+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:12.848+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:13.572+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:14.325+0100 [conn14] end connection 192.0.2.4:61549 (0 connections now open)
+2014-06-07T18:58:14.534+0100 [rsHealthPoll] DBClientCursor::init call() failed
+2014-06-07T18:58:14.534+0100 [rsHealthPoll] replset info mbp:27017 heartbeat failed, retrying
+2014-06-07T18:58:14.536+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:14.536+0100 [rsHealthPoll] replset info mbp:27017 just heartbeated us, but our heartbeat failed: , not changing state
+2014-06-07T18:58:14.849+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:14.849+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:14.850+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:14.850+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:15.106+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:15.106+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:15.107+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:15.107+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:15.108+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:15.108+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:15.575+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:15.575+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:15.577+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:15.620+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:15.621+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:15.621+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:16.539+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:16.539+0100 [rsHealthPoll] replset info mbp:27017 heartbeat failed, retrying
+2014-06-07T18:58:16.543+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:16.543+0100 [rsHealthPoll] replset info mbp:27017 just heartbeated us, but our heartbeat failed: , not changing state
+2014-06-07T18:58:17.582+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:17.582+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:17.591+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:17.622+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:17.622+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:17.623+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:17.623+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:18.552+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:18.552+0100 [rsHealthPoll] replset info mbp:27017 heartbeat failed, retrying
+2014-06-07T18:58:18.569+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:18.569+0100 [rsHealthPoll] replSet info mbp:27017 is down (or slow to respond): 
+2014-06-07T18:58:18.569+0100 [rsHealthPoll] replSet member mbp:27017 is now in state DOWN
+2014-06-07T18:58:18.624+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:18.624+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:18.624+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:18.624+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:18.625+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:18.625+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:19.608+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:19.608+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:19.625+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:19.626+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:19.626+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:19.641+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:20.569+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:20.570+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4), connection attempt failed
+2014-06-07T18:58:20.570+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:20.570+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:20.571+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:20.571+0100 [rsHealthPoll] replset info mbp:27017 heartbeat failed, retrying
+2014-06-07T18:58:20.572+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:20.572+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:20.572+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:20.572+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:20.574+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:20.575+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:20.575+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:21.627+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:21.627+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:21.628+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:21.628+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:21.629+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:21.629+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:21.630+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:21.630+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:21.631+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:21.631+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:21.633+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:21.634+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:21.634+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:21.706+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:21.706+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:21.834+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:22.575+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:22.575+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:22.575+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:22.576+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:22.580+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:22.580+0100 [rsHealthPoll] replset info mbp:27017 heartbeat failed, retrying
+2014-06-07T18:58:22.581+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:22.581+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:22.581+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:22.581+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:22.590+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:22.591+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:22.591+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:23.635+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:23.635+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:23.635+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:23.636+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:23.640+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:23.640+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:23.641+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:23.641+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:23.641+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:23.641+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:23.650+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:23.650+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:23.651+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:24.091+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:24.092+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:24.591+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:24.591+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:24.592+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:24.592+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:24.604+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:24.608+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:24.608+0100 [rsHealthPoll] replset info mbp:27017 heartbeat failed, retrying
+2014-06-07T18:58:24.609+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:24.609+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:24.609+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:24.609+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:24.642+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:24.642+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:24.642+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:25.651+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:25.651+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:25.652+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:25.652+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:25.668+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:25.669+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:25.669+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:25.669+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:25.670+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:25.670+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:25.702+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:25.703+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:25.703+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:26.605+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.606+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (192.0.2.3), connection attempt failed
+2014-06-07T18:58:26.606+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.606+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:26.608+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.608+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:26.608+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.608+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:26.609+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.609+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:26.611+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.612+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.612+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:26.643+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.643+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:26.643+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.643+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:26.708+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.708+0100 [rsHealthPoll] replset info mbp:27017 heartbeat failed, retrying
+2014-06-07T18:58:26.708+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.708+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:26.708+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.709+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:26.837+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.837+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:26.838+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:27.704+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:27.704+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:27.704+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:27.704+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:27.769+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:27.769+0100 [rsHealthPoll] replset info m202-ubuntu:27018 heartbeat failed, retrying
+2014-06-07T18:58:27.770+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:27.770+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:27.770+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:27.770+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:27.899+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:27.900+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27018, reason: errno:111 Connection refused
+2014-06-07T18:58:27.900+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27018: couldn't connect to server m202-ubuntu:27018 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:28.612+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:28.612+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:28.613+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:28.613+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:28.618+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:28.618+0100 [rsHealthPoll] replset info m202-ubuntu:27017 heartbeat failed, retrying
+2014-06-07T18:58:28.619+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:28.619+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:28.619+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:28.619+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:28.628+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:28.629+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.3:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:28.629+0100 [rsHealthPoll] couldn't connect to m202-ubuntu:27017: couldn't connect to server m202-ubuntu:27017 (192.0.2.3) failed, connection attempt failed
+2014-06-07T18:58:28.838+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:28.838+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:28.839+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:28.839+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:29.095+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:29.096+0100 [rsHealthPoll] replset info mbp:27017 heartbeat failed, retrying
+2014-06-07T18:58:29.096+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:29.096+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:29.096+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:29.096+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:29.609+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:29.609+0100 [rsHealthPoll] warning: Failed to connect to 192.0.2.4:27017, reason: errno:111 Connection refused
+2014-06-07T18:58:29.609+0100 [rsHealthPoll] couldn't connect to mbp:27017: couldn't connect to server mbp:27017 (192.0.2.4) failed, connection attempt failed
+2014-06-07T18:58:29.885+0100 [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] now exiting
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] dbexit: 
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] shutdown: going to close listening sockets...
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] closing listening socket: 8
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] closing listening socket: 9
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] closing listening socket: 11
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] shutdown: going to flush diaglog...
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] shutdown: going to close sockets...
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] shutdown: waiting for fs preallocator...
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] shutdown: lock for final commit...
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] shutdown: final commit...
+2014-06-07T18:58:29.886+0100 [signalProcessingThread] shutdown: closing all files...
+2014-06-07T18:58:29.887+0100 [signalProcessingThread] closeAllFiles() finished
+2014-06-07T18:58:29.887+0100 [signalProcessingThread] journalCleanup...
+2014-06-07T18:58:29.887+0100 [signalProcessingThread] removeJournalFiles
+2014-06-07T18:58:29.902+0100 [signalProcessingThread] shutdown: removing fs lock...
+2014-06-07T18:58:29.902+0100 [signalProcessingThread] dbexit: really exiting now
