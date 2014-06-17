@@ -8,3 +8,7 @@ Enter the field name (not the value) for the setting that is the source of the p
 
 logAppend
 When you have your answer, please paste or type it into the box below, and submit. Unfortunately, case/capitalization matters here, so please enter the field name for the setting in question exactly how it appears in the logs.
+
+# Solution
+
+bindIp
