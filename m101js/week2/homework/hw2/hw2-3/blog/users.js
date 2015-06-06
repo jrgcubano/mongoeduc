@@ -30,10 +30,12 @@ function UsersDAO(db) {
 
         // TODO: hw2.3
         // New +
-        users.insert(user, function (err, result) {
-            "use strict";
-            callback(err, result[0]);
-        });
+        users.insert(user, function(err, inserted){
+		if (err) throw err;
+
+		console.dir("Successfully inserted: " + JSON.stringify(inserted));
+		callback(null, user);
+	});
         // Old +
         //callback(Error("addUser Not Yet Implemented!"), null);
     }
@@ -68,7 +70,7 @@ function UsersDAO(db) {
 
         // TODO: hw2.3
         // New +
-        users.findOne({ '_id' : username}, validateUserDoc(err, user));
+         users.findOne({'_id': username}, validateUserDoc);	
         // Old + 
         //callback(Error("validateLogin Not Yet Implemented!"), null);
     }
